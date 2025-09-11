@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://w2sz.github.io</id>
+    <title>W2SZ • Posts by &#34;cw&#34; tag</title>
+    <link href="http://w2sz.github.io" />
+    <updated>2022-09-01T23:52:14.000Z</updated>
+    <category term="publication" />
+    <category term="CW" />
+    <category term="AD2BA Brian" />
+    <category term="conference" />
+    <category term="SSTV" />
+    <category term="contest" />
+    <category term="fm-bot" />
+    <category term="SDR" />
+    <category term="KD2TAI Hisen" />
+    <category term="welcome" />
+    <category term="license" />
+    <category term="N1IHA Nick" />
+    <category term="shack" />
+    <category term="history" />
+    <category term="MGEF" />
+    <category term="member" />
+    <category term="AC2YD Ben" />
+    <category term="KC3LXR Christian Kegel" />
+    <entry>
+        <id>http://w2sz.github.io/post/cw-record-protocol/</id>
+        <title>A First Commentary on the CW Record Protocol</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/cw-record-protocol/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “A first commentary on the CW Record Protocol,” QEX September&amp;#x2F;October 2022: 19-22.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="CW" />
+        <category term="AD2BA Brian" />
+        <updated>2022-09-01T23:52:14.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/binary-cw/</id>
+        <title>Protocol for Formatting and Transmitting Binary Data over Morse CW</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/binary-cw/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “Protocol for Formatting and Transmitting Binary Data over Morse CW,” QEX May&amp;#x2F;June 2021: 31-33.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="CW" />
+        <category term="AD2BA Brian" />
+        <updated>2021-05-01T23:57:28.000Z</updated>
+    </entry>
+</feed>

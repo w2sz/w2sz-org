@@ -1,0 +1,1 @@
+.headline{margin-top:$margin-secondary}.headline:after{content:'\200b'}.headline-content{margin-top:$margin-m-2;border:1px solid #e6e6e6;border-radius:10px;background:#e6e6e6;width:100%}.headline-icon{padding:1rem .5rem 0 1rem;float:left;color:#999}.headline-text{padding:0 2rem 0 3rem;vertical-align:middle}

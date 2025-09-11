@@ -1,0 +1,51 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"member\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/member/roster/",
+            "url": "http://w2sz.github.io/post/member/roster/",
+            "title": "The Grand Roster of W2SZ",
+            "date_published": "2023-04-21T04:00:00.000Z",
+            "content_html": "<h2 id=\"The-Grand-Roster\"><a href=\"#The-Grand-Roster\" class=\"headerlink\" title=\"The Grand Roster\"></a>The Grand Roster</h2><blockquote>\n<p><strong>The majority of entries (800+) are provided by <a href=\"mailto:K1NKR@arrl.net\">James W. “Skip” Youngberg K1NKR</a> through his decades of research. Also, <a href=\"sstuart5@cox.net\">Steve Stuart N6IA</a> informed hundreds of entries dated back to 1970-74.</strong></p>\n<p>We rely on crowd-sourcing to make information accurate and updated. To nominate a W2SZ-affiliated individual, fill out <a href=\"https://forms.gle/drVtrJS7ywm9Vowy5\">this form</a>. If you identify inaccuracies or own W2SZ archives, please <a href=\"/contact\">email an officer</a>.</p>\n</blockquote>\n<p>This is a non-exhaustive roster of former and present membership and those affiliated with W2SZ.</p>\n<style>\n  .roster {\n    position: relative;\n    padding-bottom: 150%; // This is the aspect ratio\n    height: 0;\n    overflow: hidden;\n  }\n  .roster iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100% !important;\n    height: 100% !important;\n  }\n  .figure {\n    position: relative;\n    padding-bottom: 60%; // This is the aspect ratio\n    height: 100%;\n    width: 100%;\n    /* overflow: hidden; */\n  }\n  .figure iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100% !important;\n    height: 100% !important;\n  }\n</style>\n\n<div class=\"roster\">\n    <iframe src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRER2KQsRW1b2dKWpJ2qbakc1iI394ajAHZ-9zliKePRwI6RZHxRALrOR1uM6FWkd_xvKGqKlJ5czOF/pubhtml?gid=1647311226&amp;single=true&amp;widget=true&amp;headers=false\"\n            width=\"600\"\n            height=\"900\"\n            style=\"border:0;\"\n            allowfullscreen=\"\">\n    </iframe>\n</div>\n\n<h2 id=\"Statistics\"><a href=\"#Statistics\" class=\"headerlink\" title=\"Statistics\"></a>Statistics</h2><p>The figures are manually updated yearly.</p>\n<div class=\"figure\">\n  <iframe width=\"100%\" height=\"100%\" seamless frameborder=\"0\" scrolling=\"no\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRER2KQsRW1b2dKWpJ2qbakc1iI394ajAHZ-9zliKePRwI6RZHxRALrOR1uM6FWkd_xvKGqKlJ5czOF/pubchart?oid=1170638492&amp;format=interactive\"></iframe>\n</div>\n\n<div class=\"figure\">\n  <iframe width=\"100%\" height=\"100%\" seamless frameborder=\"0\" scrolling=\"no\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRER2KQsRW1b2dKWpJ2qbakc1iI394ajAHZ-9zliKePRwI6RZHxRALrOR1uM6FWkd_xvKGqKlJ5czOF/pubchart?oid=2088144757&amp;format=interactive\"></iframe>\n</div>\n",
+            "tags": [
+                "member"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/member/AD2BA/",
+            "url": "http://w2sz.github.io/post/member/AD2BA/",
+            "title": "AD2BA - Brian Callahan",
+            "date_published": "2023-04-13T04:00:00.000Z",
+            "content_html": "",
+            "tags": [
+                "AD2BA Brian",
+                "member"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/member/KD2TAI/",
+            "url": "http://w2sz.github.io/post/member/KD2TAI/",
+            "title": "KD2TAI - Hisen Zhang",
+            "date_published": "2023-04-13T04:00:00.000Z",
+            "content_html": "",
+            "tags": [
+                "KD2TAI Hisen",
+                "member"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/member/AC2YD/",
+            "url": "http://w2sz.github.io/post/member/AC2YD/",
+            "title": "AC2YD - Ben Cahill",
+            "date_published": "1976-01-01T05:00:00.000Z",
+            "content_html": "<p>I was the equipment manager for W2SZ for at least one year, probably 1975-76 school year.  I graduated one semester early, in December ‘76 (class of ‘77), so I probably was not equipment manager for 76-77 school year.  I carried on the traditional report, “Some of the equipment is working, and some of it isn’t”, that my predecessor passed down to me!  I can’t remember his name.  :-(</p>\n<p>At the time, I was WB2PWS (advanced class).  I let my license drop after college, just got re-licensed in late 2018 as Extra, back on the air in 2020 … built Softrock RXTX Ensemble kit, been happily QRP CW ever since … largely contesting!</p>\n",
+            "tags": [
+                "member",
+                "AC2YD Ben"
+            ]
+        }
+    ]
+}

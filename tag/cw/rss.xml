@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>W2SZ • Posts by &#34;cw&#34; tag</title>
+        <link>http://w2sz.github.io</link>
+        <description>RPI Amateur Radio Club</description>
+        <language>en</language>
+        <pubDate>Thu, 01 Sep 2022 19:52:14 -0400</pubDate>
+        <lastBuildDate>Thu, 01 Sep 2022 19:52:14 -0400</lastBuildDate>
+        <category>publication</category>
+        <category>CW</category>
+        <category>AD2BA Brian</category>
+        <category>conference</category>
+        <category>SSTV</category>
+        <category>contest</category>
+        <category>fm-bot</category>
+        <category>SDR</category>
+        <category>KD2TAI Hisen</category>
+        <category>welcome</category>
+        <category>license</category>
+        <category>N1IHA Nick</category>
+        <category>shack</category>
+        <category>history</category>
+        <category>MGEF</category>
+        <category>member</category>
+        <category>AC2YD Ben</category>
+        <category>KC3LXR Christian Kegel</category>
+        <item>
+            <guid isPermalink="true">http://w2sz.github.io/post/cw-record-protocol/</guid>
+            <title>A First Commentary on the CW Record Protocol</title>
+            <link>http://w2sz.github.io/post/cw-record-protocol/</link>
+            <category>publication</category>
+            <category>CW</category>
+            <category>AD2BA Brian</category>
+            <pubDate>Thu, 01 Sep 2022 19:52:14 -0400</pubDate>
+            <description><![CDATA[ &lt;p&gt;B. R. Callahan, “A first commentary on the CW Record Protocol,” QEX September&amp;#x2F;October 2022: 19-22.&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://w2sz.github.io/post/binary-cw/</guid>
+            <title>Protocol for Formatting and Transmitting Binary Data over Morse CW</title>
+            <link>http://w2sz.github.io/post/binary-cw/</link>
+            <category>publication</category>
+            <category>CW</category>
+            <category>AD2BA Brian</category>
+            <pubDate>Sat, 01 May 2021 19:57:28 -0400</pubDate>
+            <description><![CDATA[ &lt;p&gt;B. R. Callahan, “Protocol for Formatting and Transmitting Binary Data over Morse CW,” QEX May&amp;#x2F;June 2021: 31-33.&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

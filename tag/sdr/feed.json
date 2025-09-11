@@ -1,0 +1,50 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"sdr\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/sdr-transceiver/",
+            "url": "http://w2sz.github.io/post/sdr-transceiver/",
+            "title": "A Minimal Software-Defined Radio VHF/UHF/SHF Transceiver",
+            "date_published": "2023-04-15T00:19:47.000Z",
+            "content_html": "<p>Z. Zhang, “A Minimal Software-Defined Radio VHF&#x2F;UHF&#x2F;SHF Transceiver,” Proceedings of Microwave Update 2023. forthcoming Apr 14, 2023.</p>\n",
+            "tags": [
+                "publication",
+                "conference",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fmbot/",
+            "url": "http://w2sz.github.io/post/fmbot/",
+            "title": "An AI-powered transcription bot for FM transmissions",
+            "date_published": "2023-01-02T00:28:38.000Z",
+            "content_html": "<p>B. R. Callahan and Z. Zhang, “An AI-powered transcription bot for FM transmissions,” QEX Jan&#x2F;Feb 2023 Issue.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "fm-bot",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fmbot-analysis/",
+            "url": "http://w2sz.github.io/post/fmbot-analysis/",
+            "title": "Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions",
+            "date_published": "2022-09-18T23:20:45.000Z",
+            "content_html": "<p>Z. Zhang and B. R. Callahan, “Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions,” Proceedings of the 41st Annual ARRL and TAPR Digital Communications Conference (DCC), Sept. 16-18, 2022.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "conference",
+                "fm-bot",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        }
+    ]
+}

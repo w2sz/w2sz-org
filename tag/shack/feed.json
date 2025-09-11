@@ -1,0 +1,49 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"shack\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/shack-leak/",
+            "url": "http://w2sz.github.io/post/shack-leak/",
+            "title": "Shack Roof Leak",
+            "date_published": "2023-01-12T18:17:10.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/G8FeIRH.jpg\"><br><img src=\"https://i.imgur.com/Uffl6w3.jpg\"></p>\n",
+            "tags": [
+                "shack"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/union-3304/",
+            "url": "http://w2sz.github.io/post/union-3304/",
+            "title": "The New Shack in 3304",
+            "date_published": "2022-12-16T18:15:08.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/UF4ZhbE.jpg\"></p>\n",
+            "tags": [
+                "shack"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/shack-work-in-progress/",
+            "url": "http://w2sz.github.io/post/shack-work-in-progress/",
+            "title": "Shack Work In Progress",
+            "date_published": "2022-06-04T17:17:10.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/iN6ZjLp.jpg\"><br><img src=\"https://i.imgur.com/cptp6ra.jpg\"></p>\n",
+            "tags": [
+                "shack"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/shack-1960s/",
+            "url": "http://w2sz.github.io/post/shack-1960s/",
+            "title": "W2SZ Shack in 1961",
+            "date_published": "1961-01-02T04:06:08.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/mP9LFQE.gif\"><br><img src=\"https://i.imgur.com/7GCe9de.gif\"><br><img src=\"https://i.imgur.com/AAcKhaA.gif\"></p>\n",
+            "tags": [
+                "shack",
+                "history"
+            ]
+        }
+    ]
+}

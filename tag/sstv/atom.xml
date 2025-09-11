@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://w2sz.github.io</id>
+    <title>W2SZ • Posts by &#34;sstv&#34; tag</title>
+    <link href="http://w2sz.github.io" />
+    <updated>2023-12-15T13:33:47.000Z</updated>
+    <category term="publication" />
+    <category term="CW" />
+    <category term="AD2BA Brian" />
+    <category term="conference" />
+    <category term="SSTV" />
+    <category term="contest" />
+    <category term="fm-bot" />
+    <category term="SDR" />
+    <category term="KD2TAI Hisen" />
+    <category term="welcome" />
+    <category term="license" />
+    <category term="N1IHA Nick" />
+    <category term="shack" />
+    <category term="history" />
+    <category term="MGEF" />
+    <category term="member" />
+    <category term="AC2YD Ben" />
+    <category term="KC3LXR Christian Kegel" />
+    <entry>
+        <id>http://w2sz.github.io/post/web-sstv/</id>
+        <title>Web SSTV</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/web-sstv/"/>
+        <content type="html">&lt;p&gt;&lt;a href=&#34;https://ckegel.github.io/Web-SSTV/&#34;&gt;Web SSTV&lt;/a&gt; aims to both encode and decode SSTV using plain JavaScript and Web Audio API. Web SSTV can be run entirely offline, and on any platform from Chromebooks to phones, so long as they support JavaScript and Web Audio. By making SSTV readily available on many platforms, we aim to create educational opportunities and introduce more people to STEM and amateur radio.&lt;/p&gt;
+&lt;p&gt;Web SSTV is currently hosted at &lt;a href=&#34;https://ckegel.github.io/Web-SSTV/&#34;&gt;https://ckegel.github.io/Web-SSTV/&lt;/a&gt;. Check out the source code at &lt;a href=&#34;https://github.com/CKegel/Web-SSTV&#34;&gt;https://github.com/CKegel/Web-SSTV&lt;/a&gt;. Contributions are welcome.&lt;/p&gt;
+</content>
+        <category term="SSTV" />
+        <category term="KC3LXR Christian Kegel" />
+        <updated>2023-12-15T13:33:47.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/gaming-over-sstv/</id>
+        <title>Experiments in gaming over SSTV</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/gaming-over-sstv/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “Experiments in gaming over SSTV,” QEX July&amp;#x2F;August 2022: 25-29.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="AD2BA Brian" />
+        <category term="SSTV" />
+        <updated>2022-07-01T23:53:49.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/data-sstv/</id>
+        <title>DataTV: A protocol for embedding data into SSTV transmissions</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/data-sstv/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “DataTV: A protocol for embedding data into SSTV transmissions,” QEX March&amp;#x2F;April 2022: 25-28.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="AD2BA Brian" />
+        <category term="SSTV" />
+        <updated>2022-03-02T00:55:46.000Z</updated>
+    </entry>
+</feed>

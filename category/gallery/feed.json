@@ -1,0 +1,139 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"gallery\" category",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/pixie-kit-build/",
+            "url": "http://w2sz.github.io/post/pixie-kit-build/",
+            "title": "Pixie Transceiver Kit Building",
+            "date_published": "2023-02-24T23:23:10.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/Ikmi2a5.jpg\"></p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://w2sz.github.io/post/shack-leak/",
+            "url": "http://w2sz.github.io/post/shack-leak/",
+            "title": "Shack Roof Leak",
+            "date_published": "2023-01-12T18:17:10.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/G8FeIRH.jpg\"><br><img src=\"https://i.imgur.com/Uffl6w3.jpg\"></p>\n",
+            "tags": [
+                "shack"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/union-3304/",
+            "url": "http://w2sz.github.io/post/union-3304/",
+            "title": "The New Shack in 3304",
+            "date_published": "2022-12-16T18:15:08.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/UF4ZhbE.jpg\"></p>\n",
+            "tags": [
+                "shack"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fall-2022-collegiate-qso-party/",
+            "url": "http://w2sz.github.io/post/fall-2022-collegiate-qso-party/",
+            "title": "Collegiate QSO Party",
+            "date_published": "2022-10-02T19:20:04.000Z",
+            "content_html": "",
+            "tags": [
+                "contest"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fall-2022-group/",
+            "url": "http://w2sz.github.io/post/fall-2022-group/",
+            "title": "Fall 2022 Group",
+            "date_published": "2022-09-23T18:54:53.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
+            "id": "http://w2sz.github.io/post/vhf-sep-22/",
+            "url": "http://w2sz.github.io/post/vhf-sep-22/",
+            "title": "VHF Contest September 2022",
+            "date_published": "2022-09-15T19:20:04.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/8x7XT1H.jpg\"></p>\n",
+            "tags": [
+                "contest",
+                "MGEF"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/vhf-jun-22/",
+            "url": "http://w2sz.github.io/post/vhf-jun-22/",
+            "title": "VHF Contest June 2022",
+            "date_published": "2022-06-15T19:20:04.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/8M8VX25.jpg\"><br><img src=\"https://i.imgur.com/IobOdU6.jpg\"><br><img src=\"https://i.imgur.com/bcNdk5u.jpg\"></p>\n",
+            "tags": [
+                "contest",
+                "MGEF"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/shack-work-in-progress/",
+            "url": "http://w2sz.github.io/post/shack-work-in-progress/",
+            "title": "Shack Work In Progress",
+            "date_published": "2022-06-04T17:17:10.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/iN6ZjLp.jpg\"><br><img src=\"https://i.imgur.com/cptp6ra.jpg\"></p>\n",
+            "tags": [
+                "shack"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/vhf-sep-21/",
+            "url": "http://w2sz.github.io/post/vhf-sep-21/",
+            "title": "VHF Contest September 2021",
+            "date_published": "2021-09-15T19:20:04.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/gdpY4u4.jpg\"><br><img src=\"https://i.imgur.com/rNEsHpF.jpg\"><br><img src=\"https://i.imgur.com/b2xF3n5.jpg\"><br><img src=\"https://i.imgur.com/Qc9h3Nq.jpg\"><br><img src=\"https://i.imgur.com/qRsGlrp.jpg\"><br><img src=\"https://i.imgur.com/lTXrpNa.jpg\"><br><img src=\"https://i.imgur.com/ipTwjmB.jpg\"><br><img src=\"https://i.imgur.com/t7dyCK9.jpg\"></p>\n",
+            "tags": [
+                "contest",
+                "MGEF"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/vhf-jun-21/",
+            "url": "http://w2sz.github.io/post/vhf-jun-21/",
+            "title": "VHF Contest June 2021",
+            "date_published": "2021-06-15T19:20:04.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/VdsGYwY.jpg\"><br><img src=\"https://i.imgur.com/F8Kpsrs.jpg\"><br><img src=\"https://i.imgur.com/AIyTE02.jpg\"><br><img src=\"https://i.imgur.com/5whLSHO.jpg\"><br><img src=\"https://i.imgur.com/iiNvOFO.jpg\"><br><img src=\"https://i.imgur.com/R7RCmF0.jpg\"><br><img src=\"https://i.imgur.com/nmRUCDc.jpg\"><br><img src=\"https://i.imgur.com/gEnizB3.jpg\"></p>\n",
+            "tags": [
+                "contest",
+                "MGEF"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/shack-1960s/",
+            "url": "http://w2sz.github.io/post/shack-1960s/",
+            "title": "W2SZ Shack in 1961",
+            "date_published": "1961-01-02T04:06:08.000Z",
+            "content_html": "<p><img src=\"https://i.imgur.com/mP9LFQE.gif\"><br><img src=\"https://i.imgur.com/7GCe9de.gif\"><br><img src=\"https://i.imgur.com/AAcKhaA.gif\"></p>\n",
+            "tags": [
+                "shack",
+                "history"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/whaz-postcard/",
+            "url": "http://w2sz.github.io/post/whaz-postcard/",
+            "title": "WHAZ Postcard",
+            "date_published": "1933-01-01T20:28:23.000Z",
+            "content_html": "<p>From:   Kevin Roberts</p>\n<blockquote>\n<p>This postcard is in a scrapbook that I had in my attic from 1933. It was a reply postcard that WRPI’s predecessor (WHAZ) mailed to those who sent letters to the station</p>\n<p>Note that RPI’s WHAZ-AM only broadcast on Monday evenings. But, once a month, it transmitted “clear channel” across the entire United  States.</p>\n<p>The bell pictured has an interesting history, as it was used in the very first experiment demonstrating electrical communication in  1831. WHAZ used the bell in several broadcasts.</p>\n<p>I hope this is interesting, and that someone can use this image to post on WRPI’s website</p>\n</blockquote>\n",
+            "tags": [
+                "history"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/whaz-broadcast/",
+            "url": "http://w2sz.github.io/post/whaz-broadcast/",
+            "title": "Radiophone WHAZ Unique in Broadcasting",
+            "date_published": "1920-01-01T05:00:00.000Z",
+            "content_html": "<h2 id=\"Original\"><a href=\"#Original\" class=\"headerlink\" title=\"Original\"></a>Original</h2><p><img src=\"https://i.imgur.com/1twZbp6.jpg\"><br><img src=\"https://i.imgur.com/sjOnV1I.jpg\"><br><img src=\"https://i.imgur.com/Bgabw8p.jpg\"></p>\n<h2 id=\"Transcription\"><a href=\"#Transcription\" class=\"headerlink\" title=\"Transcription\"></a>Transcription</h2><p>Radiophone W H A Z Unique in Broadcasting</p>\n<p><em>Rensselaer Polytechnic Institute Station with the 10,000 mile Voice—Familiar College Broadcast to Further Develop Experiments Through New Installations—Emphasis on Modulation and Reducing Noise Interference—Novel Features.</em></p>\n<p>Unique among broadcasting stations is radiophone W H A Z at the Rensselaer Polytechnic Institute, Troy, N. Y., which will open its fourth year “on the air” Monday evening, September 14, with the same group of entertainers that presented its first broadcast program in 1922. Through a variety of new installations this summer it will further develop the experimental side of broadcasting, which as an integral part of the communications department of an engineering college is made a dominant feature. Although its engineers have heretofore experimented with varied power and sources of energy, they will concentrate largely during the coming season upon a power range between 250 and 1000 watts, with especial emphasis upon the quality of modulation. A new pickup system, believed to be a long step in advance, will be tried with the purpose of eliminating so far as possible microphone and generator noises while reproducing the whole range of sound with fidelity. The study of the sources of annoying radio “noises” and their elimination will be a major endeavor. Another new installation is additional short wave experimental department occupying 5000 square feet of floor space in the loft of the big electrical laboratory just underneath the antenna system.</p>\n<p>W H A Z is unique in that it broadcasts for the entertainment of the public but once a week, from two to four hours on Monday evenings. As a non-commercial station without fixed broadcasting features—save the popular monthly programs by the students’ symphony and dance orchestras and musical clubs—its programs run the whole gamut of broadcasting. The station furnishes no regular news, sports or market services. It is also unique in that it established in the early days of general broadcasting, in February, 1923, the long distance transmission record of two-fifths of the way around the earth, nearly 10,000 miles to New Zealand, and that today under very ordinary condition of Class B broadcasting, at its regular wave length of 319.5 meters and with only 500 watts power. This station has earned the title of the “Transcontinental and International Radiophone” from the fact that its broadcasts have spanned the continent for approximately forty weeks a year for the last three years. Its broadcasts have been heard with great fidelity and regularly, as more than 30,000 letters and messages attest, from coast to coast, from Alaska to Panama, and frequently in the Pacific islands, West Indies, South America, England and Continental Europe. This station had not been on the air many weeks when it became one of the first in America to be heard in Continental Europe, France and Belgium, for November, 1922, and in Hawaii, in mountains, mesaes, rain in December following. Two-way radio telephone communication through 2000 miles over land, a feat not duplicated, was carried on at the will of the operators between W H A Z, Troy, and C F C N, Calgary, Alberta, Canada, in January 1923.</p>\n<p>The Program Director, Rutherford Hayes, who is also the sole announcer, has always sought unusual programs and to the audience, and the programs are made as continuous as possible. Naturally the programs by the students of the Rensselaer Polytechnic Institute on the last Monday evening of each month with a midnight program on the second Monday have become a popular feature of W H A Z broadcasts, with the Symphony Orchestra, Campus Serenaders dance orchestra, Glee Club and individual students participating. While the purpose of this radio school is not merely to entertain it has done that so well as to receive the commendation of every type of radio listener through its always varied and unusual programs. Educational features find an important place in the broadcasts in a way that makes them interesting as well as instructive. Members of the faculty contribute practical and non-technical talks on subjects of current interest in the scientific and engineering field and prominent speakers are frequently heard on topics of the day.</p>\n<p>Long distance transmissions from W H A Z are not mere chance “pick-up” in long the tele letters were made out laboriously and the rest an unintelligible jumble. Four successive broadcasts were heard in New Zealand. Chief Long Eagle of Eagle Bar Ranch at Winnet, Montana, requested a special program by the Campus Serenaders, students’ dance orchestra, and sixty Indians danced to the music at the ranch. A college fraternity at Mott Framer, California, danced to their favorite tune of slow Indian at an outside attraction to Troy students, and western Nebraska. One graduate of the Institute makes it a point to entertain with much regularity, the public of his native city, San Salvador, Central America, with student programs from his alma mater by means of a loud speaker. A Harry Lauder imitator notified relatives in Scotland that he would sing on a certain night and they heard him. Receivers in the British Isles reported hearing W H A Z programs on seven successive Monday nights. Last winter, and sixteen listeners in different English towns reported fairly complete logs of the program on the same night. Boy Scout Commissioner on a steamship enroute to Cuba listened to a program he arranged before he sailed. A sea Captain reported a complete program heard on shipboard in the South Seas, 5000 miles from Troy. The Postmaster at Wailuku, Hawaii, and a graduate with his family in the Hawaiian capital have entertained friends on more than one occasion with programs from W H A Z. Navy vessels often report concerts heard while passing through the Caribbean sea, and on occasion the program has been reported from every state and territory of the Union, seven provinces of Canada, Cuba, and Bermuda.</p>\n<p>Of the broadcasting apparatus it is sufficient to state that it is the standard Western Electric 500-watt outfit, complete in every detail, and was installed through a gift of the Roeblings, graduates of the Troy Tech, and famous as the builders of the Brooklyn Bridge. W H A Z is under the direction of Professor Wynant J. Williams, associate professor of electrical engineering in charge of the course in communication engineering, with a corps of instructor-operators, Harry R. Mimno, Hiram D. Harris, and Bertram H. Carmer, Jr., each of whom has been engaged in radio experimentation from boyhood. In physical equipment, station W H A Z is similar to many other leading broadcasting stations of the country. Its ideal location on the top of the big Sage building, one of the largest college electrical and mechanical laboratories in the country, at the crest of the beautiful hilltop campus, overlooking the Hudson River at the head of tidewater navigation, 150 miles from New York, is most advantageous. The remarkable success of the station is credited chiefly to the superior skill of the engineering experts in charge of its operation. The studio is attractive and in excellent taste, its walls being covered with soft gray draperies, floor heavily carpeted, and ceiling with a double perforated covering preventing reverberation. It is furnished with a fine piano and other necessary musical and pick-up devices.</p>\n<p>As an engineering college in which electrical and communication engineering is one of the major courses, Rensselaer Polytechnic Institute radio department has a remarkable equipment embracing practically every variety of apparatus. There are numerous long and short wave transmitters and receivers. Transmission and experimentation is almost continuous. The equipment includes the first wireless telephone equipment ever sold—an old De Forest set—by means of which Professor Williams delivered a lecture to students as far back as 1910, long before the general public knew anything of radio broadcasting. There is a Marconi wireless telegraph set of 1902, including a coherer of the original type, a German Telefunken system wireless outfit, and all the infinite variety of apparatus that has been developed in the intervening years down to the very latest improved devices. Many radio amateurs both in this country and abroad are familiar with the call letters of the Institute wireless stations, 2XAP, 2SZ, and 2CDC.</p>\n<ol>\n<li>Professor Wynant J. Williams, Associate Professor of Electrical Engineering. Head of Communication Department and Manager of Station W H A Z, answering some of the many questions received in the experimental department of Radiophone Station W H A Z, Rensselaer Polytechnic Institute, Troy, N.Y.</li>\n<li>Mr. H. R. Mimno and H. D. Harris, Operators at Radiophone Station W H A Z.</li>\n<li>Russell Sage Laboratory, the home of Radio Station W H A Z.</li>\n<li>Mr. Rutherford Hayner, Program Director and Announcer.</li>\n<li>One corner - control operating room, Station W H A Z.</li>\n<li>The Campus Serenaders, Student Dance Orchestra at Rensselaer Polytechnic Institute, broadcasting from Studio at W H A Z.</li>\n</ol>\n",
+            "tags": [
+                "history"
+            ]
+        }
+    ]
+}

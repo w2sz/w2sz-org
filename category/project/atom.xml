@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://w2sz.github.io</id>
+    <title>W2SZ • Posts by &#34;project&#34; category</title>
+    <link href="http://w2sz.github.io" />
+    <updated>2023-12-15T13:33:47.000Z</updated>
+    <category term="publication" />
+    <category term="CW" />
+    <category term="AD2BA Brian" />
+    <category term="conference" />
+    <category term="SSTV" />
+    <category term="contest" />
+    <category term="fm-bot" />
+    <category term="SDR" />
+    <category term="KD2TAI Hisen" />
+    <category term="welcome" />
+    <category term="license" />
+    <category term="N1IHA Nick" />
+    <category term="shack" />
+    <category term="history" />
+    <category term="MGEF" />
+    <category term="member" />
+    <category term="AC2YD Ben" />
+    <category term="KC3LXR Christian Kegel" />
+    <entry>
+        <id>http://w2sz.github.io/post/web-sstv/</id>
+        <title>Web SSTV</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/web-sstv/"/>
+        <content type="html">&lt;p&gt;&lt;a href=&#34;https://ckegel.github.io/Web-SSTV/&#34;&gt;Web SSTV&lt;/a&gt; aims to both encode and decode SSTV using plain JavaScript and Web Audio API. Web SSTV can be run entirely offline, and on any platform from Chromebooks to phones, so long as they support JavaScript and Web Audio. By making SSTV readily available on many platforms, we aim to create educational opportunities and introduce more people to STEM and amateur radio.&lt;/p&gt;
+&lt;p&gt;Web SSTV is currently hosted at &lt;a href=&#34;https://ckegel.github.io/Web-SSTV/&#34;&gt;https://ckegel.github.io/Web-SSTV/&lt;/a&gt;. Check out the source code at &lt;a href=&#34;https://github.com/CKegel/Web-SSTV&#34;&gt;https://github.com/CKegel/Web-SSTV&lt;/a&gt;. Contributions are welcome.&lt;/p&gt;
+</content>
+        <category term="SSTV" />
+        <category term="KC3LXR Christian Kegel" />
+        <updated>2023-12-15T13:33:47.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/sdr-transceiver/</id>
+        <title>A Minimal Software-Defined Radio VHF/UHF/SHF Transceiver</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/sdr-transceiver/"/>
+        <content type="html">&lt;p&gt;Z. Zhang, “A Minimal Software-Defined Radio VHF&amp;#x2F;UHF&amp;#x2F;SHF Transceiver,” Proceedings of Microwave Update 2023. forthcoming Apr 14, 2023.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="conference" />
+        <category term="SDR" />
+        <category term="KD2TAI Hisen" />
+        <updated>2023-04-15T00:19:47.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/fmbot/</id>
+        <title>An AI-powered transcription bot for FM transmissions</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/fmbot/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan and Z. Zhang, “An AI-powered transcription bot for FM transmissions,” QEX Jan&amp;#x2F;Feb 2023 Issue.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="AD2BA Brian" />
+        <category term="fm-bot" />
+        <category term="SDR" />
+        <category term="KD2TAI Hisen" />
+        <updated>2023-01-02T00:28:38.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/fmbot-analysis/</id>
+        <title>Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/fmbot-analysis/"/>
+        <content type="html">&lt;p&gt;Z. Zhang and B. R. Callahan, “Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions,” Proceedings of the 41st Annual ARRL and TAPR Digital Communications Conference (DCC), Sept. 16-18, 2022.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="AD2BA Brian" />
+        <category term="conference" />
+        <category term="fm-bot" />
+        <category term="SDR" />
+        <category term="KD2TAI Hisen" />
+        <updated>2022-09-18T23:20:45.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/cw-record-protocol/</id>
+        <title>A First Commentary on the CW Record Protocol</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/cw-record-protocol/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “A first commentary on the CW Record Protocol,” QEX September&amp;#x2F;October 2022: 19-22.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="CW" />
+        <category term="AD2BA Brian" />
+        <updated>2022-09-01T23:52:14.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/gaming-over-sstv/</id>
+        <title>Experiments in gaming over SSTV</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/gaming-over-sstv/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “Experiments in gaming over SSTV,” QEX July&amp;#x2F;August 2022: 25-29.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="AD2BA Brian" />
+        <category term="SSTV" />
+        <updated>2022-07-01T23:53:49.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/data-sstv/</id>
+        <title>DataTV: A protocol for embedding data into SSTV transmissions</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/data-sstv/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “DataTV: A protocol for embedding data into SSTV transmissions,” QEX March&amp;#x2F;April 2022: 25-28.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="AD2BA Brian" />
+        <category term="SSTV" />
+        <updated>2022-03-02T00:55:46.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/binary-cw/</id>
+        <title>Protocol for Formatting and Transmitting Binary Data over Morse CW</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/binary-cw/"/>
+        <content type="html">&lt;p&gt;B. R. Callahan, “Protocol for Formatting and Transmitting Binary Data over Morse CW,” QEX May&amp;#x2F;June 2021: 31-33.&lt;/p&gt;
+</content>
+        <category term="publication" />
+        <category term="CW" />
+        <category term="AD2BA Brian" />
+        <updated>2021-05-01T23:57:28.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://w2sz.github.io/post/pre-2k-projects/</id>
+        <title>Some Nifty Zed Projects</title>
+        <link rel="alternate" href="http://w2sz.github.io/post/pre-2k-projects/"/>
+        <content type="html">&lt;p&gt;&lt;em&gt;This page was maintained by Nick Maddix N1IHA and recovered from archive by Hisen KD2TAI. Expired link are removed&amp;#x2F;updated.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Here are some Zed projects, past, present, and future.&lt;/p&gt;
+&lt;p&gt;If you are interested in learning more about any of them or working on any aspect of a project, get &lt;a href=&#34;/contact&#34;&gt;in touch with a W2SZ officer&lt;/a&gt;. We are always looking for help and encourage people to become involved with these high-tech practical projects in any way. Anyone is welcome to visit the shack and find out all they can about something of interest. Hope to see you there!&lt;/p&gt;
+&lt;h2 id=&#34;Satellite-communications-station&#34;&gt;&lt;a href=&#34;#Satellite-communications-station&#34; class=&#34;headerlink&#34; title=&#34;Satellite communications station&#34;&gt;&lt;/a&gt;Satellite communications station&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/SXBEXXA.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A new IC-821 dual-band satellite radio has just been purchased for the satellite station. This radio will allow members to operate the birds almost “hands-free” as it can compensate for doppler shift automatically, and tune each band at the same time via the computer.&lt;/p&gt;
+&lt;p&gt;Recently, large steps toward completing the satellite station have been made. A DSP modem and computer-based satellite tracker were purchased to allow fully automated communication with satellites in any orbit. A mast has been put on the tower so the rotor can be mounted, and both the feedline and rotor control cable have been partially prepped for installation. The 2 meter crossed-yagi antenna is ready, and as soon as the 440MHz antenna is phased and fitted with a relay, the rotor and antennas will be ready to go up. Thanks to Dave Page for donating a computer to run the tracking software and a fiberglass boom.&lt;/p&gt;
+&lt;p&gt;Amateur Radio satellites are becoming more and more advanced as well as more numerous these days. Transmitting to and receiving from a satellite is an advanced procedure that requires special equipment and operating techniques. The Zed satellite project is the only project at RPI dealing with the technical aspects of satellite communications and related equipment. When the project is finished, W2SZ members will be able to communicate with both high- and low-orbit amateur satellites in a variety of modes. In addition, we will be able to reliably talk to the space shuttle during &lt;a href=&#34;http://www.nasa.gov/sarex/sarex_mainpage.html&#34;&gt;SAREX&lt;/a&gt; missions.&lt;/p&gt;
+&lt;p&gt;Zed has been gradually obtaining the items needed for a fully-equipped satellite communications station. Circularly polarized antennae are used to feed and receive clear signals. A good amount of gain is necessary, as well as a rotor that can point the antennae anywhere in the sky and track the satellite in its orbit. We have a Yaesu Az-El rotor and the necessary antennae, but they need to be mounted atop the satellite tower. Coax and rotor cable must also be run into the VHF&amp;#x2F;UHF Operating Station. Computer software can be used to track and predict the orbits of satellites very accurately while operating.&lt;/p&gt;
+&lt;h3 id=&#34;Satellite-Station-Update-4-x2F-96&#34;&gt;&lt;a href=&#34;#Satellite-Station-Update-4-x2F-96&#34; class=&#34;headerlink&#34; title=&#34;Satellite Station Update - 4&amp;#x2F;96&#34;&gt;&lt;/a&gt;Satellite Station Update - 4&amp;#x2F;96&lt;/h3&gt;&lt;p&gt;Yes, folks, after many years of talking about it and several months of doing it, we Zed has successfully put a superb sat. station on the air. The 2m&amp;#x2F;432 antennas have been mounted on the Az-El rotor, the tracking software has been loaded, and the birds have been worked. So far, we have been working the analog birds: &lt;a href=&#34;http://128.54.16.15/amsat/sats/n7hpr/fo20.html&#34;&gt;Fuji-Oscar 20 (FO-20)&lt;/a&gt;, &lt;a href=&#34;http://128.54.16.15/amsat/sats/n7hpr/ao13.html&#34;&gt;Oscar 13,&lt;/a&gt; &lt;a href=&#34;http://128.54.16.15/amsat/sats/n7hpr/ao10.html&#34;&gt;Oscar 10&lt;/a&gt;, and &lt;a href=&#34;http://128.54.16.15/amsat/sats/n7hpr/rs.html&#34;&gt;RS-10&amp;#x2F;11.&lt;/a&gt; We’ve also made several attempts at contacting the &lt;a href=&#34;http://www.nasa.gov/sarex/sarex_mainpage.html&#34;&gt;Space Shuttle&lt;/a&gt; and the &lt;a href=&#34;http://www.skypoint.com/subscribers/benhuset/mw-new.html&#34;&gt;MIR&lt;/a&gt; space station, but have yet to be on the air at the same time they have. The station should be able to work either quite well. We are running a tower-mounted pre-amp on 432, and use a radio-mounted preamp on 2m. We’re hoping to obtain a better 2m preamp for tower mounting in the future. We’re capable of running 100W on 432, and about 250W on 2m using Dave’s amplifier. Note that good satellite etiquette (and general operating etiquette) is to operate the minimum amount of power needed for communication. This is especially important with regards to the birds because they operate on a limited power budget (solar arrays and batteries). When an alligator fires up his kW, he will chew up a large percentage of this budget on his signal alone as he is repeated. This can effectively attenuate other QSOs in the satellite passband. As you might expect, other users get pretty upset when this happens. Note that when operating FO-20 at W2SZ, we seldom need more than 10W for a strong signal at the bird. 73 and happy uplinking.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;http://128.54.16.15/amsat/Amsat.html&#34;&gt;AMSAT Homepage&lt;/a&gt;.&lt;br&gt;And the &lt;a href=&#34;http://www.nasa.gov/sarex/sarex_mainpage.html&#34;&gt;SAREX Homepage&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;900MHz-Repeater&#34;&gt;&lt;a href=&#34;#900MHz-Repeater&#34; class=&#34;headerlink&#34; title=&#34;900MHz Repeater&#34;&gt;&lt;/a&gt;900MHz Repeater&lt;/h2&gt;&lt;p&gt;A prototype 900MHz receiver has been built and is currently being tested for use in a 900MHz repeater. Most of the parts are in hand, and the project should result in a 6W repeater on the 900MHz band. An antenna is still needed and the thing has to be put together, but otherwise, a repeater could be here soon. See Nick Maddix’s Projects Page for more info.&lt;/p&gt;
+&lt;h2 id=&#34;Integrated-Antenna-Controller&#34;&gt;&lt;a href=&#34;#Integrated-Antenna-Controller&#34; class=&#34;headerlink&#34; title=&#34;Integrated Antenna Controller&#34;&gt;&lt;/a&gt;Integrated Antenna Controller&lt;/h2&gt;&lt;p&gt;Since we have so many antennas to control, we’re replacing the whole mess of cables with an RS-485 networked system. The concept originated with Dave Page’s dish antenna controller, and has been expanded to control multiple rotors at multiple points. Both the remote control units (the easy part) and the master units have been designed. The remote controllers are handheld boxes with a keyboard, LCD, and RS-485 connectors. They are powered by the network cable. About half of the control unit software has been written so far. They provide a nice menu and one can change the net address for that particular unit. So far so good.&lt;/p&gt;
+&lt;p&gt;The system, concocted by Dave Page, consists of a master unit, any number of master slave units, and any number of remote controller units. Each unit may be physically anywhere on the RS-485 line. The master unit polls the controllers that want to control its rotors or switches, and then tells the next master slave to do the same. This occurs for all master slaves, and then time is allotted for the controllers to broadcast requests for control, etc. The entire process is repeated every 100ms, perhaps faster.&lt;/p&gt;
+&lt;p&gt;See also Nick Maddix’s Projects Page for more info.&lt;/p&gt;
+&lt;h2 id=&#34;Digital-packet-radio-internet-gateway&#34;&gt;&lt;a href=&#34;#Digital-packet-radio-internet-gateway&#34; class=&#34;headerlink&#34; title=&#34;Digital packet radio internet gateway&#34;&gt;&lt;/a&gt;Digital packet radio internet gateway&lt;/h2&gt;&lt;p&gt;Zed is also taking steps to create an internet gateway to packet radio users in the Capital District. The gateway will provide wireless medium-speed internet service to local hams. Packet radio is a digital mode of communication in use by thousands of hams to send messages and exchange information. This gateway would run at 9600 baud on a 440 MHz frequency to allow packet users high-speed access. The software will be run from one of Zed’s Sun 3 computers (donated by ITS) in the RPI union. Our last president, Jeff Shykula, made great steps toward getting the gateway up and running, but there is still some work to be done, including getting an antenna on the roof, getting a data radio that can handle the 9600 baud bandwidth, and getting and configuring the network software.&lt;/p&gt;
+&lt;h2 id=&#34;UHF-repeater-and-controller&#34;&gt;&lt;a href=&#34;#UHF-repeater-and-controller&#34; class=&#34;headerlink&#34; title=&#34;UHF repeater and controller&#34;&gt;&lt;/a&gt;UHF repeater and controller&lt;/h2&gt;&lt;p&gt;Zed’s 443.00+ repeater was donated by Lance Lascari, WS2B, a longtime W2SZ member and RF guru. He built the repeater and controller himself, and both work nearly flawlessly. The controller is based on the M68HC11 microcontroller and is extremely versatile. DTMF tones are decoded by a SCI202 (aka SSI202) chip. Because of the features of the HC11, the controller has few other parts. The HC11 can be reprogrammed at will as the code is stored in EEPROM memory, and there is an on-chip serial port.&lt;/p&gt;
+&lt;p&gt;Lance’s documentation on his controller code is &lt;a href=&#34;srpt.doc&#34;&gt;here&lt;/a&gt;.&lt;br&gt;The actual HC11 code is &lt;a href=&#34;srpt.asm&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;Microwave-ethernet-link&#34;&gt;&lt;a href=&#34;#Microwave-ethernet-link&#34; class=&#34;headerlink&#34; title=&#34;Microwave ethernet link&#34;&gt;&lt;/a&gt;Microwave ethernet link&lt;/h2&gt;&lt;p&gt;This project is from the ARRL handbook (‘93?). There is a &lt;a href=&#34;http://www.tapr.org/~n6gn/uwavelink/uwv.html&#34;&gt;homepage&lt;/a&gt; set up by Glenn Elmore, N6GN, which has all sorts of information on the project. It is not a replacement for the Handbook article, however.&lt;/p&gt;
+&lt;p&gt;The basic idea is simple. A Gunn source at 10GHz can be modulated a significant amount by varying the bias voltage on the diode. A varactor-tuned source would be ideal, but possibly not necessary. Frequency-shift keying is achieved by letting the TX network signal change the Gunn bias. The Gunnplexer at the other end is tuned 105MHz away, creating a 105MHz first IF in the mixer diode. This is then amplified, band-pass filtered and down-converted again with a VCO and mixer to 45MHz. This IF is fed to an MC13055 FSK receiver, which (hopefully) decodes the incoming data stream and provides a carrier to noise measurement output for a meter. An AFC is used as well as a search oscillator to keep the IFs locked.&lt;/p&gt;
+&lt;p&gt;The transceiver at the union will be mounted on the roof, with a clear view of Zed’s 120 ft. tower. Arcnet cable and coax will run to the linux computer and receiver unit in the bravo station. On the Shack side, the transceiver will be mounted somewhere about half-way up the tower, with a clear view of the union. The transceiver will connect to a linux computer in the shed at the base of the tower and 10base-5 ethernet will run to the SUN3 in the shack along with cables for power and maybe audio.&lt;/p&gt;
+&lt;p&gt;The link is a fully bi-directional, high-speed ethernet capable of operating over distances of 30 to 40 miles with appropriate dishes. In addition, the link includes a full-duplex voice link that can operate in conjunction with the data stream. It will be useful in aligning the link and installing it permanently.&lt;/p&gt;
+&lt;p&gt;There are many more…&lt;/p&gt;
+</content>
+        <category term="N1IHA Nick" />
+        <updated>1999-09-20T00:10:26.000Z</updated>
+    </entry>
+</feed>

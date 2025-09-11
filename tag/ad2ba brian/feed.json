@@ -1,0 +1,96 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"ad2ba brian\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/member/AD2BA/",
+            "url": "http://w2sz.github.io/post/member/AD2BA/",
+            "title": "AD2BA - Brian Callahan",
+            "date_published": "2023-04-13T04:00:00.000Z",
+            "content_html": "",
+            "tags": [
+                "AD2BA Brian",
+                "member"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fmbot/",
+            "url": "http://w2sz.github.io/post/fmbot/",
+            "title": "An AI-powered transcription bot for FM transmissions",
+            "date_published": "2023-01-02T00:28:38.000Z",
+            "content_html": "<p>B. R. Callahan and Z. Zhang, “An AI-powered transcription bot for FM transmissions,” QEX Jan&#x2F;Feb 2023 Issue.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "fm-bot",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fmbot-analysis/",
+            "url": "http://w2sz.github.io/post/fmbot-analysis/",
+            "title": "Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions",
+            "date_published": "2022-09-18T23:20:45.000Z",
+            "content_html": "<p>Z. Zhang and B. R. Callahan, “Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions,” Proceedings of the 41st Annual ARRL and TAPR Digital Communications Conference (DCC), Sept. 16-18, 2022.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "conference",
+                "fm-bot",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/cw-record-protocol/",
+            "url": "http://w2sz.github.io/post/cw-record-protocol/",
+            "title": "A First Commentary on the CW Record Protocol",
+            "date_published": "2022-09-01T23:52:14.000Z",
+            "content_html": "<p>B. R. Callahan, “A first commentary on the CW Record Protocol,” QEX September&#x2F;October 2022: 19-22.</p>\n",
+            "tags": [
+                "publication",
+                "CW",
+                "AD2BA Brian"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/gaming-over-sstv/",
+            "url": "http://w2sz.github.io/post/gaming-over-sstv/",
+            "title": "Experiments in gaming over SSTV",
+            "date_published": "2022-07-01T23:53:49.000Z",
+            "content_html": "<p>B. R. Callahan, “Experiments in gaming over SSTV,” QEX July&#x2F;August 2022: 25-29.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "SSTV"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/data-sstv/",
+            "url": "http://w2sz.github.io/post/data-sstv/",
+            "title": "DataTV: A protocol for embedding data into SSTV transmissions",
+            "date_published": "2022-03-02T00:55:46.000Z",
+            "content_html": "<p>B. R. Callahan, “DataTV: A protocol for embedding data into SSTV transmissions,” QEX March&#x2F;April 2022: 25-28.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "SSTV"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/binary-cw/",
+            "url": "http://w2sz.github.io/post/binary-cw/",
+            "title": "Protocol for Formatting and Transmitting Binary Data over Morse CW",
+            "date_published": "2021-05-01T23:57:28.000Z",
+            "content_html": "<p>B. R. Callahan, “Protocol for Formatting and Transmitting Binary Data over Morse CW,” QEX May&#x2F;June 2021: 31-33.</p>\n",
+            "tags": [
+                "publication",
+                "CW",
+                "AD2BA Brian"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"sstv\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/web-sstv/",
+            "url": "http://w2sz.github.io/post/web-sstv/",
+            "title": "Web SSTV",
+            "date_published": "2023-12-15T13:33:47.000Z",
+            "content_html": "<p><a href=\"https://ckegel.github.io/Web-SSTV/\">Web SSTV</a> aims to both encode and decode SSTV using plain JavaScript and Web Audio API. Web SSTV can be run entirely offline, and on any platform from Chromebooks to phones, so long as they support JavaScript and Web Audio. By making SSTV readily available on many platforms, we aim to create educational opportunities and introduce more people to STEM and amateur radio.</p>\n<p>Web SSTV is currently hosted at <a href=\"https://ckegel.github.io/Web-SSTV/\">https://ckegel.github.io/Web-SSTV/</a>. Check out the source code at <a href=\"https://github.com/CKegel/Web-SSTV\">https://github.com/CKegel/Web-SSTV</a>. Contributions are welcome.</p>\n",
+            "tags": [
+                "SSTV",
+                "KC3LXR Christian Kegel"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/gaming-over-sstv/",
+            "url": "http://w2sz.github.io/post/gaming-over-sstv/",
+            "title": "Experiments in gaming over SSTV",
+            "date_published": "2022-07-01T23:53:49.000Z",
+            "content_html": "<p>B. R. Callahan, “Experiments in gaming over SSTV,” QEX July&#x2F;August 2022: 25-29.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "SSTV"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/data-sstv/",
+            "url": "http://w2sz.github.io/post/data-sstv/",
+            "title": "DataTV: A protocol for embedding data into SSTV transmissions",
+            "date_published": "2022-03-02T00:55:46.000Z",
+            "content_html": "<p>B. R. Callahan, “DataTV: A protocol for embedding data into SSTV transmissions,” QEX March&#x2F;April 2022: 25-28.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "SSTV"
+            ]
+        }
+    ]
+}

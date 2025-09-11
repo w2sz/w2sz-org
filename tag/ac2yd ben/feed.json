@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"ac2yd ben\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/member/AC2YD/",
+            "url": "http://w2sz.github.io/post/member/AC2YD/",
+            "title": "AC2YD - Ben Cahill",
+            "date_published": "1976-01-01T05:00:00.000Z",
+            "content_html": "<p>I was the equipment manager for W2SZ for at least one year, probably 1975-76 school year.  I graduated one semester early, in December ‘76 (class of ‘77), so I probably was not equipment manager for 76-77 school year.  I carried on the traditional report, “Some of the equipment is working, and some of it isn’t”, that my predecessor passed down to me!  I can’t remember his name.  :-(</p>\n<p>At the time, I was WB2PWS (advanced class).  I let my license drop after college, just got re-licensed in late 2018 as Extra, back on the air in 2020 … built Softrock RXTX Ensemble kit, been happily QRP CW ever since … largely contesting!</p>\n",
+            "tags": [
+                "member",
+                "AC2YD Ben"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "W2SZ • All posts by \"conference\" tag",
+    "description": "RPI Amateur Radio Club",
+    "home_page_url": "http://w2sz.github.io",
+    "items": [
+        {
+            "id": "http://w2sz.github.io/post/sdr-transceiver/",
+            "url": "http://w2sz.github.io/post/sdr-transceiver/",
+            "title": "A Minimal Software-Defined Radio VHF/UHF/SHF Transceiver",
+            "date_published": "2023-04-15T00:19:47.000Z",
+            "content_html": "<p>Z. Zhang, “A Minimal Software-Defined Radio VHF&#x2F;UHF&#x2F;SHF Transceiver,” Proceedings of Microwave Update 2023. forthcoming Apr 14, 2023.</p>\n",
+            "tags": [
+                "publication",
+                "conference",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/qso-today-mar-23/",
+            "url": "http://w2sz.github.io/post/qso-today-mar-23/",
+            "title": "QSO Today Ham Expo March 2023",
+            "date_published": "2023-03-25T22:40:41.000Z",
+            "content_html": "<h2 id=\"How-to-Build-An-AI-powered-Transcription-Bot-for-FM-Transmissions\"><a href=\"#How-to-Build-An-AI-powered-Transcription-Bot-for-FM-Transmissions\" class=\"headerlink\" title=\"How to Build An AI-powered Transcription Bot for FM Transmissions\"></a>How to Build An AI-powered Transcription Bot for FM Transmissions</h2><p>Presentors: Brian Callahan AD2BA, Zhemin Zhang KD2TAI<br>Moderator: Vince d’Eon VE6LK</p>\n<p>Collateral or Slides:<br><a href=\"https://v5.airtableusercontent.com/v1/15/15/1680919200000/T5qGbP0Yo4a4KDfxzobarA/XIiuDfImnNweaiLg7O3z0lc83H8VnKYT0qCN894bpDL_urZal3dNxdMqDkZKYXTXT44zRh9bnoJzc6EQMZVQV402JSqm0mp2F7rXawn6YIrAq210jhX4gcxaBovT11GxJS1xsS9tW0p6XJG6uvROfuDnnaHuqRQsllonc-NPd_Y/8f5Hlx1QGxRWBLk5DodpTs5RtmeceS26nEztjn1NIxc\">FMBot - QSO Today March 2023 Brian Calllahan AD2BA and Hisen Zhang KD2TAI.pdf</a></p>\n<blockquote>\n<p>Level: General Audience</p>\n<p>Category: Controllers - Raspberry Pi, Arduino, Future of Amateur Radio, Homebrew and Construction, New License - Now What?, Software and Satellites, General Interest, New License- Now What?, SDR Software Defined Radio, Software and Services, Station Operation</p>\n<p>Time:</p>\n<p>PDT: March 25, 2023, 4:00 pm<br>UTC: March 25, 2023, 11:00 pm<br>Duration: 1 hour</p>\n</blockquote>\n<p>Based on the January&#x2F;February 2023 QEX article of the same name and subsequent ARRL-TAPR conference paper, this presentation discusses and demonstrates a bot, which can be built using as little as an inexpensive SDR antenna, a Raspberry Pi or laptop, and open source Artificial Intelligence&#x2F;Machine Learning software, that can listen to VHF&#x2F;UHF frequencies for amateur radio transmissions and transcribe those transmissions into text. We will discuss and demonstrate potential uses of the transcribed text and the bot generally. The bot can augment anyone’s experience and enjoyment of being on the air, from new operators who may only have their Technician license to seasoned operators.</p>\n<h2 id=\"SDR-Rover-Kit-The-Next-Generation-Setup-for-Amateur-Radio-Contesting\"><a href=\"#SDR-Rover-Kit-The-Next-Generation-Setup-for-Amateur-Radio-Contesting\" class=\"headerlink\" title=\"SDR Rover Kit: The Next Generation Setup for Amateur Radio Contesting\"></a>SDR Rover Kit: The Next Generation Setup for Amateur Radio Contesting</h2><p>Presentors: Zhemin Zhang KD2TAI</p>\n<p>Collateral or Slides:<br><a href=\"https://v5.airtableusercontent.com/v1/15/15/1680919200000/GqyBDGex0u2bd6G_vWPmdA/riGZN7pQfnQqOSdNk61Mtobr_aqofLLPLXVg245NjTIV0CPF6yJexMtBmyuXNoKDzWykBdMYCks-EIn88uhD5mUbjCVQJKkCGNqMycxR-I-OogpvIREIx1zkJwlGq78t-o5W0TgzsfccHiFT4U809Q/M41VPuwTTk2k7MXraiXFPDt3eJNQ2xgtFJISgflmKXU\">SDR Rover Kit - QSO Today March 2023 Zhemin Zhang KD2TAI.pdf</a></p>\n<blockquote>\n<p>Level: Intermediate<br>Category: Contesting and DX, Future of Amateur Radio, Homebrew and Construction, Field Operation, SDR Software Defined Radio</p>\n<p>Time:</p>\n<p>PDT: March 26, 2023, 10:00 am<br>UTC: March 26, 2023, 5:00 pm<br>Duration: 1 hour</p>\n</blockquote>\n<p>The SDR Rover Kit project uses off-the-shelf software-defined radio for an 8-band low-power contesting solution under $400. The idea is to keep the system “simple and stupid” by using wideband components. The prototype has been proven effective in lab and field tests. However, it takes additional optimizations to achieve ideal performance.</p>\n",
+            "tags": [
+                "conference"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/fmbot-analysis/",
+            "url": "http://w2sz.github.io/post/fmbot-analysis/",
+            "title": "Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions",
+            "date_published": "2022-09-18T23:20:45.000Z",
+            "content_html": "<p>Z. Zhang and B. R. Callahan, “Preliminary Analysis of an AI-powered Transcription Bot for FM Transmissions,” Proceedings of the 41st Annual ARRL and TAPR Digital Communications Conference (DCC), Sept. 16-18, 2022.</p>\n",
+            "tags": [
+                "publication",
+                "AD2BA Brian",
+                "conference",
+                "fm-bot",
+                "SDR",
+                "KD2TAI Hisen"
+            ]
+        },
+        {
+            "id": "http://w2sz.github.io/post/qso-today-sep-22/",
+            "url": "http://w2sz.github.io/post/qso-today-sep-22/",
+            "title": "QSO Today Ham Expo September 2022",
+            "date_published": "2022-09-17T22:40:41.000Z",
+            "content_html": "<h2 id=\"HT-DTMF-x3D-Fun-Simple-Digital-Communication-for-Handheld-Transceivers\"><a href=\"#HT-DTMF-x3D-Fun-Simple-Digital-Communication-for-Handheld-Transceivers\" class=\"headerlink\" title=\"HT + DTMF &#x3D; Fun: Simple Digital Communication for Handheld Transceivers\"></a>HT + DTMF &#x3D; Fun: Simple Digital Communication for Handheld Transceivers</h2><p>Presentors: Zhemin Zhang KD2TAI</p>\n<p><a href=\"https://docs.google.com/presentation/d/1VwyWAMVfaRQOz8yNxs5SlrST_Bv64-HTUiovT-y2dvU\">Slides</a> | <a href=\"https://github.com/HisenZhang/DTMF-App\">Github</a></p>\n<p>Is it possible to send text and images by just dialing on your HT keypads? Have you ever wondered how the dial tones work? In this talk, we discuss a simple protocol to transfer data using your HTs by encoding information, including text, images, or arbitrary files, into DTMF tones: this minimal yet functioning setup serves as an introduction to modern digital communication systems.</p>\n",
+            "tags": [
+                "conference"
+            ]
+        }
+    ]
+}
