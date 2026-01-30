@@ -36,7 +36,16 @@ body, html {
     border-style: solid;
 }
 
+#left_banner_content_lower {
+    position: absolute;
+    bottom: 0;
+}
+
 #logo {
     width: 170px;
     padding-left: 25px;
+}
+
+#solar_data {
+    padding-left: 39.5px;
 }
