@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
     color: #FFFFFF;
+    font-family: Inter, 'Noto Sans SC', helvetica, arial;
 }
 
 body, h1 {
@@ -13,6 +14,10 @@ body, html {
     height: 100%
 }
 
+a {
+    text-decoration: none;
+}
+
 #navbar {
     border-color: #FFFFFF;
     border-width: 0 0 1px;
@@ -21,9 +26,10 @@ body, html {
 
 #navbar_content {
     margin-bottom: 8px;
+    display: flex;
 }
 
-#navbar_content, #left_banner_content {
+#navbar_content {
     margin-left: 8px;
     padding-top: 8px;
 }
@@ -48,4 +54,34 @@ body, html {
 
 #solar_data {
     padding-left: 39.5px;
+}
+
+#navigation_items, #left_navigation_items {
+    list-style: none;
+}
+
+#left_navigation_items {
+    padding-left: 0;
+    width: 100%;
+    margin-top: 24px;
+}
+
+#navigation_items {
+    padding-left: 84px;
+    align-content: center;
+}
+
+.navigation_item {
+    display: inline;
+    padding-right: 75px;
+}
+
+.left_navigation_item {
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+.navigation_item_text {
+    color: #FFFFFF;
+    font-size: 1.3em;
 }
