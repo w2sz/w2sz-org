@@ -1,3 +1,37 @@
 body {
     background-color: #000000;
+    color: #FFFFFF;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+#navbar {
+    border-color: #FFFFFF;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+#navbar_content {
+    margin-bottom: 8px;
+}
+
+#navbar_content, #left_banner_content {
+    margin-left: 8px;
+    padding-top: 8px;
+}
+
+#left_banner {
+    width: 250px;
+    height: 100%;
+    border-color: #FFFFFF;
+    border-width: 0 1px 0 0;
+    border-style: solid;
 }
