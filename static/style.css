@@ -81,7 +81,20 @@ a {
     padding-bottom: 28px;
 }
 
+/* Help from: https://stackoverflow.com/questions/20544309/css-sliding-underline */
 .navigation_item_text {
     color: #FFFFFF;
     font-size: 1.3em;
+    background-image: linear-gradient(#AAAAAA, #AAAAAA);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size .6s ease, background-color .6s ease;
+}
+
+.navigation_item_text:hover,
+.navigation_item_text:focus,
+.navigation_item_text:active {
+    background-size: 100% 0.1em;
 }
