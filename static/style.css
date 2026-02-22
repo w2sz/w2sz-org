@@ -1,3 +1,8 @@
+html {
+    width: fit-content;
+    min-width: 100%;
+}
+
 body {
     background-color: #000000e8;
     color: #FFFFFF;
@@ -22,16 +27,14 @@ a {
     border-color: #FFFFFF;
     border-width: 0 0 1px;
     border-style: solid;
-}
-
-#navbar_content {
-    margin-bottom: 8px;
-    display: flex;
+    height: 101.7px;
 }
 
 #navbar_content {
     margin-left: 8px;
-    padding-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    height: 100%;
 }
 
 #left_banner {
@@ -50,6 +53,7 @@ a {
 #logo {
     width: 170px;
     padding-left: 25px;
+    margin-top: 8px;
 }
 
 #solar_data {

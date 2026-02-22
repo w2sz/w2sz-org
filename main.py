@@ -35,6 +35,12 @@ def about():
 @app.route("/mgef", methods=["GET"])
 def mgef():
     return render_template("mgef.html")
+@app.route("/posts", methods=["GET"])
+def posts():
+    return render_template("posts.html")
+@app.route("/logs", methods=["GET"])
+def logbook():
+    return render_template("logbook.html")
 
 ##
 ## Entry Point (if called from cmdline)
