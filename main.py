@@ -20,6 +20,21 @@ Minify(app=app, html=True, js=True, cssless=True)
 @app.route("/", methods=["GET"])
 def home():
     return render_template("index.html")
+@app.route("/gallery", methods=["GET"])
+def gallery():
+    return render_template("gallery.html")
+@app.route("/donate", methods=["GET"])
+def donate():
+    return render_template("donate.html")
+@app.route("/officers", methods=["GET"])
+def contact():
+    return render_template("officers.html")
+@app.route("/about", methods=["GET"])
+def about():
+    return render_template("about.html")
+@app.route("/mgef", methods=["GET"])
+def mgef():
+    return render_template("mgef.html")
 
 ##
 ## Entry Point (if called from cmdline)
