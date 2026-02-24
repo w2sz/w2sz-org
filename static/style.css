@@ -9,7 +9,7 @@ body {
     font-family: Inter, 'Noto Sans SC', helvetica, arial;
 }
 
-body, h1 {
+body {
     margin: 0;
 }
 
@@ -43,6 +43,7 @@ a {
     border-color: #FFFFFF;
     border-width: 0 1px 0 0;
     border-style: solid;
+    flex-shrink: 0
 }
 
 #left_banner_content_lower {
@@ -101,4 +102,13 @@ a {
 .navigation_item_text:focus,
 .navigation_item_text:active {
     background-size: 100% 0.1em;
+}
+
+#page {
+    display: flex;
+    height: 100%;
+}
+
+#page_content {
+    margin-left: 20px;
 }
