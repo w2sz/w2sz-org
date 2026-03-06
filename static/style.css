@@ -112,3 +112,7 @@ a {
 #page_content {
     margin-left: 20px;
 }
+
+.post_photo {
+    max-width: 550px;
+}
