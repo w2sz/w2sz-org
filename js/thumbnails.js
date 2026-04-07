@@ -32,7 +32,17 @@ document.addEventListener("DOMContentLoaded", () => {
     "/images/artwork/IMG_7230.jpg",
     "/images/artwork/image0.jpg",
     ];
-    var r = Math.floor(imgs.length * Math.random());
+    
     var pic = document.getElementById("profile_image");
-    pic.src = imgs[r];
+    var r = Math.floor(imgs.length * Math.random());
+    
+    // Create loader while preloading the image
+    var loader = new Image();
+    loader.onload = function() {
+        // Image is loaded, replace the rotating logo with it
+        pic.classList.remove("rotating-logo");
+        pic.classList.add("fadeIn");
+        pic.src = imgs[r];
+    };
+    loader.src = imgs[r];
 })
