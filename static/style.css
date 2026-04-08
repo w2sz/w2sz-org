@@ -7,16 +7,13 @@ body {
     background-color: #000000e8;
     color: #FFFFFF;
     font-family: Inter, 'Noto Sans SC', helvetica, arial;
-}
-
-body {
     margin: 0;
+    height: 100vh;
 }
 
 body, html {
     display: flex;
     flex-direction: column;
-    height: 100%
 }
 
 a {
@@ -39,26 +36,30 @@ a {
 
 #left_banner {
     width: 250px;
-    height: 100%;
     border-color: #FFFFFF;
     border-width: 0 1px 0 0;
     border-style: solid;
-    flex-shrink: 0
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#left_banner_content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #left_banner_content_lower {
     position: absolute;
     bottom: 0;
+    margin-top: auto;
 }
 
 #logo {
     width: 170px;
     padding-left: 25px;
     margin-top: 8px;
-}
-
-#solar_data {
-    padding-left: 39.5px;
 }
 
 #navigation_items, #left_navigation_items {
@@ -73,11 +74,29 @@ a {
 
 #navigation_items {
     padding-left: 84px;
+}
+
+#navigation_items_large_screen {
     align-content: center;
+}
+
+#navigation_items_small_screen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+    padding-right: 40px;
 }
 
 .navigation_item {
     display: inline;
+}
+
+.navigation_item_small_screen {
+    align-content: center;
+}
+
+.navigation_item_large_screen {
     padding-right: 75px;
 }
 
