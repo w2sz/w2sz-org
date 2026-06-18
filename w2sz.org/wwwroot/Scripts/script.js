@@ -9,7 +9,8 @@ function fix_left_banner_pos() {
     // If so, disable absolute positioning of footer and let the browser push it to the bottom
     var navibar = document.getElementById("navbar");
     var left_banner = document.getElementById("left_banner_content_lower");
-    if (document.body.offsetHeight > (window.innerHeight - navibar.offsetHeight)) {
+    var page_content = document.getElementById("page_content");
+    if (page_content.offsetHeight > (window.innerHeight - navibar.offsetHeight)) {
         left_banner.style.position = "static";
         left_banner.style.paddingLeft = "0";
     }
