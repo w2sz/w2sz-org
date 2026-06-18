@@ -75,28 +75,6 @@ a {
     height: 100%;
 }
 
-#left_banner {
-    width: 250px;
-    border-color: #FFFFFF;
-    border-width: 0 1px 0 0;
-    border-style: solid;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-#left_banner_content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-#left_banner_content_lower {
-    position: absolute;
-    bottom: 0;
-    margin-top: auto;
-}
-
 #logo {
     width: 170px;
     padding-left: 25px;
@@ -105,12 +83,6 @@ a {
 
 #navigation_items, #left_navigation_items {
     list-style: none;
-}
-
-#left_navigation_items {
-    padding-left: 0;
-    width: 100%;
-    margin-top: 35px;
 }
 
 #navigation_items {
@@ -143,11 +115,6 @@ a {
     padding-right: 75px;
 }
 
-.left_navigation_item {
-    text-align: center;
-    padding-bottom: 28px;
-}
-
 /* Help from: https://stackoverflow.com/questions/20544309/css-sliding-underline */
 .navigation_item_text {
     color: #FFFFFF;
@@ -177,4 +144,17 @@ a {
 
 .post_photo {
     max-width: 550px;
+}
+
+/* These two left navigation styles must be here and not in LeftBanner.razor.css */
+/* This is because the actual items for the banner are not defined within LeftBanner.razor */
+#left_navigation_items {
+    padding-left: 0;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.left_navigation_item {
+    text-align: center;
+    padding-bottom: 28px;
 }
