@@ -114,6 +114,7 @@ a {
 }
 
 #navigation_items {
+    align-content: center;
     padding-left: 84px;
 }
 
@@ -131,6 +132,7 @@ a {
 
 .navigation_item {
     display: inline;
+    padding-right: 27px;
 }
 
 .navigation_item_small_screen {
