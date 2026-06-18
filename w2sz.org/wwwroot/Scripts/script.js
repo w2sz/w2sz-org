@@ -1,4 +1,4 @@
-// JavaScript for LeftBanner component
+﻿// JavaScript for LeftBanner component
 function fix_left_banner_pos() {
     //
     // Fix positioning of the left banner content
@@ -28,7 +28,7 @@ function fix_left_banner_pos() {
     }
 }
 
-window.onload = function () {
+window.on_load = function () {
     fix_left_banner_pos();
 };
 
