@@ -17,7 +17,7 @@ function fix_left_banner_pos() {
     // This function goes both ways so it should set it back otherwise
     else {
         left_banner.style.position = "absolute";
-        left_banner.style.paddingLeft = "39.5px";
+        left_banner.style.paddingLeft = "47.5px";
     }
 
     // At a certain height, make the solar data panel disappear
