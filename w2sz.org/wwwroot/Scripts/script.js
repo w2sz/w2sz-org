@@ -28,7 +28,7 @@ function fix_left_banner_pos() {
     }
 }
 
-window.on_load = function () {
+window.onload = function () {
     fix_left_banner_pos();
 };
 
