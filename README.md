@@ -9,6 +9,7 @@ This branch is more of an experiment to see if completing the rewrite in Blazor 
 
 # Planned Features
 - [ ] Home
+  - [ ] Dynamically editable homepage (requires admin dashboard)
 - [ ] Admin account management
 - [ ] Photo gallery
 - [ ] Posts
