@@ -172,7 +172,7 @@ a {
 
 .list_of_links_content {
     width: fit-content;
-    padding-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 .post_photo {
