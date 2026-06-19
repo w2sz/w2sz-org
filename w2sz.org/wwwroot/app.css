@@ -142,7 +142,7 @@ a {
     margin-left: 20px;
 }
 
-.post_photo {
+.post_photo, #cover_image {
     max-width: 550px;
 }
 

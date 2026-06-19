@@ -1,4 +1,14 @@
 /* CSS for Home component */
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0
@@ -9,8 +19,12 @@
     }
 }
 
+.rotating_image {
+    animation: spin 1s linear infinite;
+}
+
 .fade_in {
     opacity: 0;
-    animation: fadeIn 0.2s ease-in-out forwards;
+    animation: fadeIn 0.4s ease-in-out forwards;
     will-change: opacity;
 }
