@@ -6,11 +6,11 @@ namespace w2sz.org.Components.Pages
     public partial class Home : ComponentBase
     {
         [Parameter]
-        public string? coverImageClass { get; set; } = "rotating_image";
+        public string? imageSource { get; set; } = "/images/loading.png";
 
         protected override async Task OnInitializedAsync()
         {
-            //coverImageClass = "fade_in";
+            
         }
     }
 }
