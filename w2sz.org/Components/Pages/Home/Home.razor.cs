@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-namespace w2sz.org.Components.Pages
+namespace w2sz.org.Components.Pages.Home
 {
     public partial class Home : ComponentBase, IAsyncDisposable
     {
@@ -14,7 +14,7 @@ namespace w2sz.org.Components.Pages
             if (firstRender)
             {
                 // Import the JS module used to load the cover image
-                HomeJSModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./Components/Pages/Home.razor.js");
+                HomeJSModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./Components/Pages/Home/Home.razor.js");
 
                 // Get the array of all possible cover images
                 //   * Select is used here to convert all of the full paths to just the filenames
