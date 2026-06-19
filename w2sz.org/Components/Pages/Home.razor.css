@@ -1,4 +1,7 @@
 /* CSS for Home component */
+/* ---------------------- */
+
+/* Image Loading Section */
 @keyframes spin {
     from {
         transform: rotate(0deg)
@@ -27,4 +30,19 @@
     opacity: 0;
     animation: fadeIn 0.4s ease-in-out forwards;
     will-change: opacity;
+}
+
+/* General Section */
+#home_page {
+    display: flex;
+    margin-top: 1.75rem;
+    width: 800px;
+}
+
+#home_page_content {
+    margin-right: 1.5rem;
+}
+
+#cover_image {
+    width: 50%;
 }
