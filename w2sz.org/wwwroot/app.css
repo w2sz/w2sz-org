@@ -59,6 +59,7 @@ body, html {
 
 a {
     text-decoration: none;
+    color: #ff7a7a;
 }
 
 #navbar {
@@ -116,7 +117,7 @@ a {
 }
 
 /* Help from: https://stackoverflow.com/questions/20544309/css-sliding-underline */
-.navigation_item_text {
+.navigation_item_text, .list_of_links_content {
     color: #FFFFFF;
     font-size: 1.3em;
     background-image: linear-gradient(#AAAAAA, #AAAAAA);
@@ -129,7 +130,10 @@ a {
 
 .navigation_item_text:hover,
 .navigation_item_text:focus,
-.navigation_item_text:active {
+.navigation_item_text:active,
+.list_of_links_content:hover,
+.list_of_links_content:focus,
+.list_of_links_content:active {
     background-size: 100% 0.1em;
 }
 
@@ -140,10 +144,6 @@ a {
 
 #page_content {
     margin-left: 20px;
-}
-
-.post_photo, #cover_image {
-    max-width: 550px;
 }
 
 /* These two left navigation styles must be here and not in LeftBanner.razor.css */
@@ -157,4 +157,15 @@ a {
 .left_navigation_item {
     text-align: center;
     padding-bottom: 28px;
+}
+
+.list_of_links {
+    padding-left: 0;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.list_of_links_content {
+    width: fit-content;
+    padding-bottom: 6px;
 }
