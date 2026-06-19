@@ -33,15 +33,23 @@
 }
 
 /* General Section */
+#home_page_container {
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+}
+
 #home_page {
     display: flex;
     margin-top: 1.75rem;
-    width: 80%;
+    width: 60%;
     min-width: 525px;
 }
 
 #home_page_content {
     margin-right: 1.5rem;
+    width: 260px;
+    padding-right: 45px;
 }
 
 #cover_image {

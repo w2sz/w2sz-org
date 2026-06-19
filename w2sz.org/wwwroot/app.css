@@ -144,6 +144,7 @@ a {
 
 #page_content {
     margin-left: 20px;
+    width: 100%;
 }
 
 /* These two left navigation styles must be here and not in LeftBanner.razor.css */
@@ -168,4 +169,8 @@ a {
 .list_of_links_content {
     width: fit-content;
     padding-bottom: 6px;
+}
+
+.post_photo {
+    max-width: 550px;
 }
