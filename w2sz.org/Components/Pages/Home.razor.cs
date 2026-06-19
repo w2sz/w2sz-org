@@ -3,7 +3,7 @@ using Microsoft.JSInterop;
 
 namespace w2sz.org.Components.Pages
 {
-    public partial class Home : ComponentBase
+    public partial class Home : ComponentBase, IAsyncDisposable
     {
         [Inject]
         public required IJSRuntime JSRuntime { get; set; }
@@ -25,6 +25,21 @@ namespace w2sz.org.Components.Pages
 
                 // Call the JS function to load the selected image
                 await HomeJSModule.InvokeVoidAsync("loadImage", imageSource);
+            }
+        }
+
+        async ValueTask IAsyncDisposable.DisposeAsync()
+        {
+            if (HomeJSModule is not null)
+            {
+                try
+                {
+                    await HomeJSModule.DisposeAsync();
+                }
+                catch (JSDisconnectedException)
+                {
+                    // SignalR connection dropped while disposing of module
+                }
             }
         }
     }
