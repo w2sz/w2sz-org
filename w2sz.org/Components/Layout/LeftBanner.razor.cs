@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace w2sz.org.Components.Layout
 {
