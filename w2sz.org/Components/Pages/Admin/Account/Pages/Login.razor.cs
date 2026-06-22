@@ -16,8 +16,7 @@ namespace w2sz.org.Components.Pages.Admin.Account.Pages
         private HttpContext HttpContext { get; set; } = default!;
         [SupplyParameterFromForm]
         private InputModel Input { get; set; } = default!;
-        [SupplyParameterFromQuery]
-        private string? ReturnUrl { get; set; }
+        private string ReturnUrl { get; set; } = "/admin";
 
         [Inject]
         public required UserManager<ApplicationUser> UserManager { get; set; }

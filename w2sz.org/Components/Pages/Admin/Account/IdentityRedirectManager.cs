@@ -50,6 +50,6 @@ namespace w2sz.org.Components.Pages.Admin.Account
             => RedirectToWithStatus(CurrentPath, message, context);
 
         public void RedirectToInvalidUser(UserManager<ApplicationUser> userManager, HttpContext context)
-            => RedirectToWithStatus("Account/InvalidUser", $"Error: Unable to load user with ID '{userManager.GetUserId(context.User)}'.", context);
+            => RedirectToWithStatus("admin/invalid-user", $"Error: Unable to load user with ID '{userManager.GetUserId(context.User)}'.", context);
     }
 }

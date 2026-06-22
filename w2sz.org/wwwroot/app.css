@@ -178,3 +178,16 @@ a {
 .post_photo {
     max-width: 550px;
 }
+
+#logout_button {
+    display: inline;
+}
+
+#logout_button_text:hover {
+    cursor: pointer;
+}
+
+#logout_button_text {
+    background-color: inherit;
+    border: none;
+}
