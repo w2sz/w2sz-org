@@ -1,0 +1,28 @@
+﻿@using w2sz.org.Models
+@using w2sz.org.Repositories
+@inject IOfficerDataRepo OfficerDataRepo
+
+@rendermode InteractiveServer
+
+@if (officers == null)
+{
+    <p>Loading Officers...</p>
+}
+else
+{
+    <ul>
+        @foreach (var officer in officers)
+        {
+            <li><span class="officer_position">@officer.Position</span> | <span class="officer_identification">@officer.Name @officer.Callsign</span> <a href="mailto:@officer.Email">@officer.Email</a></li>
+        }
+    </ul>
+}
+
+@code {
+    private List<OfficerData>? officers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        officers = await OfficerDataRepo.GetAllOfficersAsync();
+    }
+}
