@@ -49,12 +49,14 @@
 #home_page_content {
     margin-right: 1.5rem;
     width: 260px;
+    flex-shrink: 0;
     padding-right: 45px;
 }
 
 #cover_image {
     width: 50%;
     max-height: 550px;
+    min-width: 300px;
     object-fit: contain;
     margin-right: 1.5rem;
 }
