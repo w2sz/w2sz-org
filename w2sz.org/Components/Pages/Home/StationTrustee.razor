@@ -1,0 +1,23 @@
+﻿@using w2sz.org.Models
+@using w2sz.org.Repositories
+@inject IStationTrusteeDataRepo StationTrusteeDataRepo
+
+@rendermode InteractiveServer
+
+@if (trustee == null)
+{
+    <p>Loading Officers...</p>
+}
+else
+{
+    <p><span>@if(@trustee.Prefix is not null){@trustee.Prefix }@trustee.Name @trustee.Callsign</span> - <span><a href="mailto:@trustee.Email">@trustee.Email</a></span></p>
+}
+
+@code {
+    private StationTrusteeData? trustee;
+
+    protected override async Task OnInitializedAsync()
+    {
+        trustee = await StationTrusteeDataRepo.GetStationTrusteeDataAsync();
+    }
+}
