@@ -14,7 +14,14 @@ namespace w2sz.org.Components.Layout
         // OnAfterRender used as this involves only parts of the rendered page
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
-            await JSRuntime.InvokeVoidAsync("onload");
+            try
+            {
+                await JSRuntime.InvokeVoidAsync("onload");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Unable to call JS onload() method");
+            }
         }
     }
 }
