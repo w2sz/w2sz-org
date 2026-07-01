@@ -10,10 +10,10 @@
 }
 else
 {
-    <ul>
+    <ul id="officer_list">
         @foreach (var officer in officers)
         {
-            <li><span class="officer_position">@officer.Position</span> | <span class="officer_identification">@officer.Name @officer.Callsign</span> <a href="mailto:@officer.Email">@officer.Email</a></li>
+            <li class="officer_list_item"><span class="officer_position">@officer.Position</span> | <span class="officer_identification">@officer.Name @officer.Callsign</span> <a href="mailto:@officer.Email">@officer.Email</a></li>
         }
     </ul>
 }

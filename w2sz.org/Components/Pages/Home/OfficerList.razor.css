@@ -1,1 +1,12 @@
 /* CSS for OfficerList component */
+#officer_list {
+    font-size: large;
+}
+
+.officer_list_item {
+    padding-bottom: 8px;
+}
+
+.officer_identification {
+    font-weight: bold;
+}
