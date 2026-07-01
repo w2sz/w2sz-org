@@ -10,7 +10,7 @@
 }
 else
 {
-    <p><span>@if(@trustee.Prefix is not null){@trustee.Prefix }@trustee.Name @trustee.Callsign</span> - <span><a href="mailto:@trustee.Email">@trustee.Email</a></span></p>
+    <p><span id="trustee_identification">@if(@trustee.Prefix is not null){@trustee.Prefix }@trustee.Name @trustee.Callsign</span> - <span><a href="mailto:@trustee.Email">@trustee.Email</a></span></p>
 }
 
 @code {
