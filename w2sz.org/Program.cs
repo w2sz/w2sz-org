@@ -51,6 +51,17 @@ builder.Services.AddIdentityCore<ApplicationUser>(options =>
 
 var app = builder.Build();
 
+// Run a test connection on the DB to speed up future DB calls on initial launch
+using (var scope = app.Services.CreateScope())
+{
+    // Acquires the previously created dbFactory and creates a scope from it
+    var dbFactory = scope.ServiceProvider.GetRequiredService<IDbContextFactory<ApplicationDbContext>>();
+    using var context = dbFactory.CreateDbContext();
+
+    // This will compile models and force an open/close of a connection to the DB
+    await context.Database.CanConnectAsync();
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
