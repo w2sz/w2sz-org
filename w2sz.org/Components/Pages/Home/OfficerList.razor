@@ -25,4 +25,10 @@ else
     {
         officers = await OfficerDataRepo.GetAllOfficersAsync();
     }
+
+    public async void Refresh()
+    {
+        officers = await OfficerDataRepo.GetAllOfficersAsync();
+        StateHasChanged();
+    }
 }
