@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Forms;
 using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.CodeAnalysis;
 using w2sz.org.Components.Pages.Home;
 using w2sz.org.Models;
 
@@ -13,12 +11,8 @@ namespace w2sz.org.Components.Pages.Admin
 
         private List<OfficerData>? officers;
 
-        private string? errorMessage;
         private List<InputModel> dynamicOfficerList = default!;
 
-        [CascadingParameter]
-        private HttpContext HttpContext { get; set; } = default!;
-        private string ReturnUrl { get; set; } = "/admin/officers";
         [Inject]
         public required NavigationManager NavMan { get; set; }
 
