@@ -49,6 +49,9 @@ builder.Services.AddIdentityCore<ApplicationUser>(options =>
     .AddSignInManager()
     .AddDefaultTokenProviders();
 
+// Contains the per-user application state
+builder.Services.AddScoped<ApplicationState>();
+
 var app = builder.Build();
 
 // Run a test connection on the DB to speed up future DB calls on initial launch

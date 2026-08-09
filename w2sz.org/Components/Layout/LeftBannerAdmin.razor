@@ -1,14 +1,14 @@
 ﻿<LeftBanner>
     <ul id="left_navigation_items">
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "dashboard" ? "selected_page" : "")" href="/admin">Dashboard</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "homepage" ? "selected_page" : "")" href="/admin/homepage">Edit Homepage Text</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "officer" ? "selected_page" : "")" href="/admin/officers">Edit Officer List</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "posts" ? "selected_page" : "")" href="/admin/posts">Manage Posts</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "gallery" ? "selected_page" : "")" href="/admin/gallery">Manage Gallery</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "projects" ? "selected_page" : "")" href="/admin/projects">Manage Projects</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "account" ? "selected_page" : "")" href="/admin/account">Manage Account</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "donate" ? "selected_page" : "")" href="/admin/donate">Edit Donate Page</a></li>
-        <li class="left_navigation_item"><a class="navigation_item_text @(selectedPage == "about" ? "selected_page" : "")" href="/admin/about">Edit About Page</a></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "dashboard" ? "selected_page" : "")}")" href="/admin">Dashboard</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "homepage" ? "selected_page" : "")}")" href="/admin/homepage">Edit Homepage Text</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "contacts" ? "selected_page" : "")}")" href="/admin/contacts">Edit Contact List</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "posts" ? "selected_page" : "")}")" href="/admin/posts">Manage Posts</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "gallery" ? "selected_page" : "")}")" href="/admin/gallery">Manage Gallery</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "projects" ? "selected_page" : "")}")" href="/admin/projects">Manage Projects</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "account" ? "selected_page" : "")}")" href="/admin/account">Manage Account</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "donate" ? "selected_page" : "")}")" href="/admin/donate">Edit Donate Page</NavLink></li>
+        <li class="left_navigation_item"><NavLink class="@($"navigation_item_text {(selectedPage == "about" ? "selected_page" : "")}")" href="/admin/about">Edit About Page</NavLink></li>
     </ul>
 </LeftBanner>
 

@@ -13,14 +13,16 @@ namespace w2sz.org.Repositories
             contextFactory = _contextFactory;
         }
 
-        public async Task<List<OfficerData>> GetAllOfficersAsync()
+        public async Task<List<OfficerData>> PullAllOfficersAsync()
         {
+            Console.WriteLine("Pulling from DB");
             // The "using" keyword ensures the context disposes of itself after the operation is complete
             using var context = await contextFactory.CreateDbContextAsync();
             return await context.Officers.AsNoTracking().ToListAsync();
         }
-        public async Task<OfficerData>? GetOfficerByIDAsync(int id)
+        public async Task<OfficerData?> GetOfficerByIDAsync(int id)
         {
+            // The "using" keyword ensures the context disposes of itself after the operation is complete
             using var context = await contextFactory.CreateDbContextAsync();
             return await context.Officers.FindAsync(id);
         }

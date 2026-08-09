@@ -1,8 +1,6 @@
 ﻿@using w2sz.org.Models
-@using w2sz.org.Repositories
-@inject IOfficerDataRepo OfficerDataRepo
-
-@rendermode InteractiveServer
+@using w2sz.org.Data
+@inject ApplicationState State
 
 @if (officers == null)
 {
@@ -23,12 +21,13 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        officers = await OfficerDataRepo.GetAllOfficersAsync();
+        officers = await State.GetAllOfficersAsync();
     }
 
     public async void Refresh()
     {
-        officers = await OfficerDataRepo.GetAllOfficersAsync();
+        await State.RefreshAllOfficersAsync();
+        officers = await State.GetAllOfficersAsync();
         StateHasChanged();
     }
 }

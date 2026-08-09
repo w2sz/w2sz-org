@@ -1,17 +1,17 @@
-﻿@page "/admin/officers"
+﻿@page "/admin/contacts"
 @attribute [Microsoft.AspNetCore.Authorization.Authorize]
 
 @using w2sz.org.Components.Pages.Home
+@using w2sz.org.Data
 @using w2sz.org.Repositories
-@inject IOfficerDataRepo OfficerDataRepo
+@inject ApplicationState State
+@inject IOfficerDataRepo _OfficerDataRepo
 
-@rendermode InteractiveServer
+<PageTitle>Edit Contact List</PageTitle>
 
-<PageTitle>Edit Officer List</PageTitle>
-
-<LeftBannerAdmin selectedPage="officer" />
+<LeftBannerAdmin selectedPage="contacts" />
 <div id="page_content">
-    <h3>Edit Officer List</h3>
+    <h3>Edit Contact List</h3>
     @if (officers == null || dynamicOfficerList == null)
     {
         <p>Loading Officers...</p>
@@ -19,7 +19,7 @@
     else
     {
         <OfficerList @ref="officerCompRef"/>
-        <EditForm Model="dynamicOfficerList" method="post" OnValidSubmit="EditOfficerData" FormName="editOfficer">
+        <EditForm Model="dynamicOfficerList" method="post" OnValidSubmit="EditContactData" FormName="editOfficer">
             <table id="officer_list">
                 @foreach (var officer in dynamicOfficerList)
                 {

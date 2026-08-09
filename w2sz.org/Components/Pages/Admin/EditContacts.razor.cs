@@ -5,7 +5,7 @@ using w2sz.org.Models;
 
 namespace w2sz.org.Components.Pages.Admin
 {
-    public partial class EditOfficers : ComponentBase
+    public partial class EditContacts : ComponentBase
     {
         private OfficerList? officerCompRef;
 
@@ -18,7 +18,7 @@ namespace w2sz.org.Components.Pages.Admin
 
         protected override async Task OnInitializedAsync()
         {
-            officers = await OfficerDataRepo.GetAllOfficersAsync();
+            officers = await State.GetAllOfficersAsync();
 
             //   Create a dynamic list of inputs from the obtained list of
             // officer data that can be used to bind to the form in the page
@@ -39,7 +39,7 @@ namespace w2sz.org.Components.Pages.Admin
             }
         }
 
-        public async Task EditOfficerData()
+        public async Task EditContactData()
         {
             if (dynamicOfficerList != null)
             {
@@ -53,7 +53,7 @@ namespace w2sz.org.Components.Pages.Admin
                     officer.Callsign = dynamicOfficer.OfficerCallsign;
                     officer.Email = dynamicOfficer.OfficerEmail;
 
-                    await OfficerDataRepo.UpdateOfficerDataAsync(officer);
+                    await _OfficerDataRepo.UpdateOfficerDataAsync(officer);
                 }
             }
             // Refresh the preview
