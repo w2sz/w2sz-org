@@ -36,10 +36,10 @@ namespace w2sz.org.Components.Pages.Admin
                     // Sets the data obtained from the table into the dynamic bound list
                     // Uses an empty string on the off chance the value is null
                     newDynamicOfficer.DBID            = officer.ID;
-                    newDynamicOfficer.OfficerTitle    = officer.Position == null ? "" : officer.Position;
-                    newDynamicOfficer.OfficerName     = officer.Name == null ? "" : officer.Name;
-                    newDynamicOfficer.OfficerCallsign = officer.Callsign == null ? "" : officer.Callsign;
-                    newDynamicOfficer.OfficerEmail    = officer.Email == null ? "" : officer.Email;
+                    newDynamicOfficer.OfficerTitle    = officer.Position  == null ? "" : officer.Position;
+                    newDynamicOfficer.OfficerName     = officer.Name      == null ? "" : officer.Name;
+                    newDynamicOfficer.OfficerCallsign = officer.Callsign  == null ? "" : officer.Callsign;
+                    newDynamicOfficer.OfficerEmail    = officer.Email     == null ? "" : officer.Email;
     
                     dynamicOfficerList.Add(newDynamicOfficer);
                 }
@@ -53,10 +53,10 @@ namespace w2sz.org.Components.Pages.Admin
                 // Sets the data obtained from the table into the dynamic bound list
                 // Uses an empty string on the off chance the value is null
                 newDynamicTrustee.DBID            = trustee.ID;
-                newDynamicTrustee.TrusteePrefix   = trustee.Prefix;
-                newDynamicTrustee.TrusteeName     = trustee.Name;
-                newDynamicTrustee.TrusteeCallsign = trustee.Callsign;
-                newDynamicTrustee.TrusteeEmail    = trustee.Email;
+                newDynamicTrustee.TrusteePrefix   = trustee.Prefix   == null ? "" : trustee.Prefix;
+                newDynamicTrustee.TrusteeName     = trustee.Name     == null ? "" : trustee.Name;
+                newDynamicTrustee.TrusteeCallsign = trustee.Callsign == null ? "" : trustee.Callsign;
+                newDynamicTrustee.TrusteeEmail    = trustee.Email    == null ? "" : trustee.Email;
     
                 dynamicTrusteeDisp.Add(newDynamicTrustee);
             }
