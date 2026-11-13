@@ -25,10 +25,10 @@
                 @foreach (var officer in dynamicOfficerList)
                 {
                     <tr class="officer_list_item">
-                        <td><input type="text" class="officer_position" @bind-value="@officer.OfficerTitle"  /></td>
-                        <td><input type="text" class="officer_identification" @bind-value="@officer.OfficerName" /></td>
-                        <td><input type="text" class="officer_callsign" @bind-value="@officer.OfficerCallsign" /></td>
-                        <td><input type="text" class="officer_email" @bind-value="@officer.OfficerEmail" /></td>
+                        <td><input type="text" placeholder="Position" class="officer_position" @bind-value="@officer.OfficerTitle"  /></td>
+                        <td><input type="text" placeholder="Name" class="officer_identification" @bind-value="@officer.OfficerName" /></td>
+                        <td><input type="text" placeholder="Callsign" class="officer_callsign" @bind-value="@officer.OfficerCallsign" /></td>
+                        <td><input type="text" placeholder="Email" class="officer_email" @bind-value="@officer.OfficerEmail" /></td>
                     </tr>
                 }
             </table>
@@ -52,10 +52,10 @@
                 @foreach (var trustee in dynamicTrusteeDisp)
                 {
                     <tr class="trustee_disp_item">
-                        <td><input type="text" class="trustee_prefix" @bind-value="@trustee.TrusteePrefix" /></td>
-                        <td><input type="text" class="trustee_identification" @bind-value="@trustee.TrusteeName" /></td>
-                        <td><input type="text" class="trustee_callsign" @bind-value="@trustee.TrusteeCallsign" /></td>
-                        <td><input type="text" class="trustee_email" @bind-value="@trustee.TrusteeEmail" /></td>
+                        <td><input type="text" placeholder="Prefix" class="trustee_prefix" @bind-value="@trustee.TrusteePrefix" /></td>
+                        <td><input type="text" placeholder="Name" class="trustee_identification" @bind-value="@trustee.TrusteeName" /></td>
+                        <td><input type="text" placeholder="Callsign" class="trustee_callsign" @bind-value="@trustee.TrusteeCallsign" /></td>
+                        <td><input type="text" placeholder="Email" class="trustee_email" @bind-value="@trustee.TrusteeEmail" /></td>
                     </tr>
                 }
             </table>
