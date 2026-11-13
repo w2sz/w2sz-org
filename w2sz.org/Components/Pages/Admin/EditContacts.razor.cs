@@ -91,7 +91,7 @@ namespace w2sz.org.Components.Pages.Admin
                     trustee.Callsign = dynamicTrustee.TrusteeCallsign;
                     trustee.Email    = dynamicTrustee.TrusteeEmail;
 
-                    await _StationTrusteeDataRepo.UpdateTrusteeDataAsync(trustee);
+                    await _StationTrusteeDataRepo.UpdateStationTrusteeDataAsync(trustee);
                 }
             }
             // Refresh the preview
