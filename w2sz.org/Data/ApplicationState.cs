@@ -15,7 +15,7 @@ namespace w2sz.org.Data
         public ApplicationState(IOfficerDataRepo _officerDataRepo, IStationTrusteeDataRepo _trusteeDataRepo)
         {
             officerDataRepo = _officerDataRepo;
-            trusteeDataRepo = _trusteeDataRepo
+            trusteeDataRepo = _trusteeDataRepo;
         }
         public async Task RefreshAllOfficersAsync()
         {
