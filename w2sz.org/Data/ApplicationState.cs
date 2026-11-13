@@ -33,7 +33,7 @@ namespace w2sz.org.Data
 
         public async Task RefreshTrusteeAsync()
         {
-            trustee = await trusteeDataRepo.GetStationTrusteeDataAsync();
+            trustee = await trusteeDataRepo.PullStationTrusteeDataAsync();
         }
         public async Task<StationTrusteeData> GetStationTrusteeDataAsync()
         {
