@@ -4,7 +4,7 @@ namespace w2sz.org.Repositories
 {
     public interface IStationTrusteeDataRepo
     {
-        Task<StationTrusteeData> GetStationTrusteeDataAsync();
+        Task<StationTrusteeData> PullStationTrusteeDataAsync();
         Task UpdateStationTrusteeDataAsync(StationTrusteeData STData);
     }
 }

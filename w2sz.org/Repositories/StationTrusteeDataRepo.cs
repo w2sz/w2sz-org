@@ -13,7 +13,7 @@ namespace w2sz.org.Repositories
             contextFactory = _contextFactory;
         }
 
-        public async Task<StationTrusteeData> GetStationTrusteeDataAsync()
+        public async Task<StationTrusteeData> PullStationTrusteeDataAsync()
         {
             // The "using" keyword ensures the context disposes of itself after the operation is complete
             using var context = await contextFactory.CreateDbContextAsync();

@@ -1,6 +1,6 @@
 ﻿@using w2sz.org.Models
 @using w2sz.org.Repositories
-@inject IStationTrusteeDataRepo StationTrusteeDataRepo
+@inject ApplicationState State
 
 @if (trustee == null)
 {
@@ -16,6 +16,13 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        trustee = await StationTrusteeDataRepo.GetStationTrusteeDataAsync();
+        trustee = await State.GetStationTrusteeDataAsync();
+    }
+
+    public async void Refresh()
+    {
+        await State.RefreshTrusteeAsync();
+        trustee = await State.GetStationTrusteeDataAsync();
+        StateHasChanged();
     }
 }
