@@ -11,7 +11,7 @@ namespace w2sz.org.Components.Pages.Admin
         private StationTrustee? trusteeCompRef;  
 
         private List<OfficerData>? officers;
-        private List<StationTrusteeData>? trustee;
+        private StationTrusteeData? trustee;
 
         private List<InputModelOfficer> dynamicOfficerList = default!;
         private List<InputModelTrustee> dynamicTrusteeDisp = default!;
@@ -22,7 +22,7 @@ namespace w2sz.org.Components.Pages.Admin
         protected override async Task OnInitializedAsync()
         {
             officers = await State.GetAllOfficersAsync();
-            trustee  = await State.GetTrusteeAsync();
+            trustee  = await State.GetStationTrusteeDataAsync();
 
             //   Create a dynamic list of inputs from the obtained list of
             // officer data that can be used to bind to the form in the page
@@ -43,21 +43,17 @@ namespace w2sz.org.Components.Pages.Admin
             }
 
             // Same as above but for the single trustee entry
-            dynamicTrusteeDisp = new List<InputModelTrustee>(trustee.Count);
-            for (int i = 0; i < trustee.Count; i++)
-            {
-                StationTrusteeData singleTrustee = trustee[i];
-                InputModelTrustee newDynamicTrustee = new InputModelTrustee();
-                // Sets the data obtained from the table into the dynamic bound list
-                // Uses an empty string on the off chance the value is null
-                newDynamicTrustee.DBID            = singleTrustee.ID;
-                newDynamicTrustee.TrusteePrefix   = singleTrustee.Prefix;
-                newDynamicTrustee.TrusteeName     = singleTrustee.Name;
-                newDynamicTrustee.TrusteeCallsign = singleTrustee.Callsign;
-                newDynamicTrustee.TrusteeEmail    = singleTrustee.Email;
+            dynamicTrusteeDisp = new List<InputModelTrustee>(1);
+            InputModelTrustee newDynamicTrustee = new InputModelTrustee();
+            // Sets the data obtained from the table into the dynamic bound list
+            // Uses an empty string on the off chance the value is null
+            newDynamicTrustee.DBID            = trustee.ID;
+            newDynamicTrustee.TrusteePrefix   = trustee.Prefix;
+            newDynamicTrustee.TrusteeName     = trustee.Name;
+            newDynamicTrustee.TrusteeCallsign = trustee.Callsign;
+            newDynamicTrustee.TrusteeEmail    = trustee.Email;
 
-                dynamicTrusteeDisp.Add(newDynamicTrustee);
-            }
+            dynamicTrusteeDisp.Add(newDynamicTrustee);
         }
 
         public async Task EditOfficerData()
