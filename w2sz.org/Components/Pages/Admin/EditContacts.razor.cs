@@ -8,7 +8,7 @@ namespace w2sz.org.Components.Pages.Admin
     public partial class EditContacts : ComponentBase
     {
         private OfficerList? officerCompRef;
-        private TrusteeDisp? trusteeCompRef;  
+        private StationTrustee? trusteeCompRef;  
 
         private List<OfficerData>? officers;
         private List<StationTrusteeData>? trustee;
