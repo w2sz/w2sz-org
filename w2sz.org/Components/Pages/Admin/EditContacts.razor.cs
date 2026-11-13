@@ -24,36 +24,42 @@ namespace w2sz.org.Components.Pages.Admin
             officers = await State.GetAllOfficersAsync();
             trustee  = await State.GetStationTrusteeDataAsync();
 
-            //   Create a dynamic list of inputs from the obtained list of
-            // officer data that can be used to bind to the form in the page
-            dynamicOfficerList = new List<InputModelOfficer>(officers.Count);
-            for (int i = 0; i < officers.Count; i++)
+            if (officers != null)
             {
-                OfficerData officer = officers[i];
-                InputModelOfficer newDynamicOfficer = new InputModelOfficer();
+                //   Create a dynamic list of inputs from the obtained list of
+                // officer data that can be used to bind to the form in the page
+                dynamicOfficerList = new List<InputModelOfficer>(officers.Count);
+                for (int i = 0; i < officers.Count; i++)
+                {
+                    OfficerData officer = officers[i];
+                    InputModelOfficer newDynamicOfficer = new InputModelOfficer();
+                    // Sets the data obtained from the table into the dynamic bound list
+                    // Uses an empty string on the off chance the value is null
+                    newDynamicOfficer.DBID            = officer.ID;
+                    newDynamicOfficer.OfficerTitle    = officer.Position == null ? "" : officer.Position;
+                    newDynamicOfficer.OfficerName     = officer.Name == null ? "" : officer.Name;
+                    newDynamicOfficer.OfficerCallsign = officer.Callsign == null ? "" : officer.Callsign;
+                    newDynamicOfficer.OfficerEmail    = officer.Email == null ? "" : officer.Email;
+    
+                    dynamicOfficerList.Add(newDynamicOfficer);
+                }
+            }
+            
+            if (trustee != null) 
+            {
+                // Same as above but for the single trustee entry
+                dynamicTrusteeDisp = new List<InputModelTrustee>(1);
+                InputModelTrustee newDynamicTrustee = new InputModelTrustee();
                 // Sets the data obtained from the table into the dynamic bound list
                 // Uses an empty string on the off chance the value is null
-                newDynamicOfficer.DBID            = officer.ID;
-                newDynamicOfficer.OfficerTitle    = officer.Position == null ? "" : officer.Position;
-                newDynamicOfficer.OfficerName     = officer.Name == null ? "" : officer.Name;
-                newDynamicOfficer.OfficerCallsign = officer.Callsign == null ? "" : officer.Callsign;
-                newDynamicOfficer.OfficerEmail    = officer.Email == null ? "" : officer.Email;
-
-                dynamicOfficerList.Add(newDynamicOfficer);
+                newDynamicTrustee.DBID            = trustee.ID;
+                newDynamicTrustee.TrusteePrefix   = trustee.Prefix;
+                newDynamicTrustee.TrusteeName     = trustee.Name;
+                newDynamicTrustee.TrusteeCallsign = trustee.Callsign;
+                newDynamicTrustee.TrusteeEmail    = trustee.Email;
+    
+                dynamicTrusteeDisp.Add(newDynamicTrustee);
             }
-
-            // Same as above but for the single trustee entry
-            dynamicTrusteeDisp = new List<InputModelTrustee>(1);
-            InputModelTrustee newDynamicTrustee = new InputModelTrustee();
-            // Sets the data obtained from the table into the dynamic bound list
-            // Uses an empty string on the off chance the value is null
-            newDynamicTrustee.DBID            = trustee.ID;
-            newDynamicTrustee.TrusteePrefix   = trustee.Prefix;
-            newDynamicTrustee.TrusteeName     = trustee.Name;
-            newDynamicTrustee.TrusteeCallsign = trustee.Callsign;
-            newDynamicTrustee.TrusteeEmail    = trustee.Email;
-
-            dynamicTrusteeDisp.Add(newDynamicTrustee);
         }
 
         public async Task EditOfficerData()
@@ -81,7 +87,7 @@ namespace w2sz.org.Components.Pages.Admin
         {
             if (dynamicTrusteeDisp != null)
             {
-                foreach (var dynamicTrustee in dynamicTrusteeList) 
+                foreach (var dynamicTrustee in dynamicTrusteeDisp) 
                 {
                     // The db context update function requiores the original StationTrusteeData object
                     StationTrusteeData trustee = new StationTrusteeData();
